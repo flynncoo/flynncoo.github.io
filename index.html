@@ -4,6 +4,17 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
+  <script>
+  function ToggleVisibility(divId) {
+  var x = document.getElementById(divId);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+         }
+  }
+  </script>
 <html>
 	<head>
 		<title>Oisín Flynn-Connolly</title>
@@ -67,20 +78,68 @@
 <p><b>Preprints & Papers</b>
 </p>
 <ol>
-<li>An obstruction theory for strictly commutative algebras in positive characteristic (<a href = "https://arxiv.org/pdf/2404.16681">ArXiv</a>) 
+<li>An obstruction theory for strictly commutative algebras in positive characteristic (<a href = "https://arxiv.org/pdf/2404.16681">ArXiv</a>)
+            <a onclick="ToggleVisibility(&#39;art24&#39;)">Abstract</a>
+            <div id="art24" style="display: none" ;="">
+               <p {
+ font-family: Arial;
+ font-size: 6px;
+} ><i>This is the first in a sequence of articles exploring the relationship between commutative algebras and E-infinity algebras in characteristic p and mixed characteristic. In this paper we lay the groundwork by defining a new class of cohomology operations over Fp called cotriple products, generalising Massey products. We compute the secondary cohomology operations for a strictly commutative dg-algebra and the obstruction theories these induce, constructing several counterexamples to characteristic 0 behaviour, one of which answers a question of Campos, Petersen, Robert-Nicoud and Wierstra. We construct some families of higher cotriple products and comment on their behaviour. Finally, we distingush a subclass of cotriple products that we call higher Steenrod operations and conclude with our main theorem, which says that E-infinity algebras can be rectified if and only if the higher Steenrod operations vanish coherently.</i></p></a>
+            </div> 
 </li>
-<li> Higher order Massey products for algebras over algebraic operads (with José M. Moreno-Fernández) (<a href = "https://arxiv.org/pdf/2304.13411">ArXiv</a>) <em>Submitted</em></li>
+<li> Higher order Massey products for algebras over algebraic operads (with José M. Moreno-Fernández) (<a href = "https://arxiv.org/pdf/2304.13411">ArXiv</a>) <em>Submitted</em>
+            <a onclick="ToggleVisibility(&#39;massey&#39;)">Abstract</a>
+            <div id="massey" style="display: none" ;="">
+               <p><i>We introduce higher-order Massey products for algebras over algebraic operads. This extends the work of Fernando Muro on secondary ones. We study their basic properties and behavior with respect to morphisms of algebras and operads and give some connections to formality. We prove that these higher-order operations represent the differentials in a naturally associated operadic Eilenberg--Moore spectral sequence. We also study the interplay between particular choices of higher-order Massey products and quasi-isomorphic P∞-structures on the homology of a P-algebra. We focus on Koszul operads over a characteristic zero field and explain how our results generalize to the non-Koszul case.</i></p></a>
+            </div> 
+</li>
 <li> A recognition principle for iterated suspensions as coalgebras over the little cubes operad (with José M. Moreno-Fernández and Felix Wierstra)
-(<a href = "https://arxiv.org/pdf/2210.00839">ArXiv</a>) <em>Submitted</em>
+(<a href = "https://arxiv.org/pdf/2210.00839">ArXiv</a>) <em>Submitted</em>             <a onclick="ToggleVisibility(&#39;rec&#39;)">Abstract</a>
+            <div id="rec" style="display: none" ;="">
+               <p><i>Our main result is a recognition principle for iterated suspensions as coalgebras over the little disks operads. Given a topological operad, we construct a comonad in pointed topological spaces endowed with the wedge product. We then prove an approximation theorem that shows that the comonad associated to the little n-cubes operad is weakly equivalent to the comonad ΣnΩn arising from the suspension-loop space adjunction. Finally, our recognition theorem states that every little n-cubes coalgebra is homotopy equivalent to an n-fold suspension. These results are the Eckmann--Hilton dual of May's foundational results on iterated loop spaces.</i></p></a>
+            </div> 
 </li>
 <li>Three Schur functors related to pre-Lie algebras (with Vladimir Dotsenko) (<a href = "https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/abs/three-schur-functors-related-to-prelie-algebras/2A29183971A52031B1F4E2903342C995">journal</a>) <em>Mathematical Proceedings of Cambridge Philosophical Society</em>
+            <a onclick="ToggleVisibility(&#39;preLie&#39;)">Abstract</a>
+            <div id="preLie" style="display: none" ;="">
+               <p><i>We give explicit combinatorial descriptions of three Schur functors arising in the theory of pre-Lie algebras. The first of them leads to a functorial description of the underlying vector space of the universal enveloping pre-Lie algebra of a given Lie algebra, strengthening the PBW theorem of Segal. The two other Schur functors provide functorial descriptions of the underlying vector spaces of the universal multiplicative enveloping algebra and of the module of Kähler differentials of a given pre-Lie algebra. An important consequence of such descriptions is an interpretation of the cohomology of a pre-Lie algebra with coefficients in a module as a derived functor for the category of modules over the universal multiplicative enveloping algebra.</i></p></a>
+            </div> 
 
 </li></ol>
 <p><b>In preparation</b></p>
 <ol>
-<li>A <em>p</em>-adic de Rham complex</li>
-<li>Homotopically, E-infinity algebras do not generalise commutative dg-algebras</li>
-<li>A higher Hochschild-Konstant-Rosenberg Theorem and the Deligne conjecture</li>
+<li>A <em>p</em>-adic de Rham complex <a onclick="ToggleVisibility(&#39;padic&#39;)">Abstract</a>
+            <div id="padic" style="display: none" ;="">
+               <p><i>This is the second in the sequence of three articles exploring the relationship between
+commutative algebras and E∞-algebras in characteristic p and mixed characteristic. Given a
+topological space X, we construct, in a manner analogous to Sullivan’s APL-functor, a strictly
+commutative algebra over Zcp which we call the de Rham forms on X. We show this complex
+computes the singular cohomology ring of X. We prove that it is quasi-isomorphic as an
+E∞-algebra to the Berthelot-Ogus-Deligne décalage of the singular cochains complex with
+respect to the p-adic filtration. We show that it can be modified slightly to provide a "best
+strictly commutative approximation" to the singular cochains complex. We show that one
+can extract concrete invariants from our model, including Massey products which live in the
+torsion part of the cohomology. We show that if X is formal then, except at possibly finitely
+many primes, the p-adic de Rham forms on X are also formal..</i></p></a>
+            </div> </li>
+<li>Homotopically, E-infinity algebras do not generalise commutative dg-algebras <a onclick="ToggleVisibility(&#39;noteq&#39;)">Abstract</a>
+            <div id="noteq" style="display: none" ;="">
+               <p><i>This is the third article exploring the relationship between commutative algebras and E∞-
+algebras in characteristic p and mixed characteristic. In this paper, we show that, in characteristic
+2, the homotopy category of strictly commutative dg-algebras does not form a subcategory of
+the homotopy category of E∞-algebras. This is done by constructing a explicit example of two
+strictly commutative algebras that are quasi-isomorphic in the category of E∞-algebras but not
+the category of strictly commutative algebras. The construction is based on the theory of cotriple
+operations.</i></p></a>
+            </div> </li>
+<li>A higher Hochschild-Konstant-Rosenberg Theorem and the Deligne conjecture <a onclick="ToggleVisibility(&#39;hkr&#39;)">Abstract</a>
+            <div id="hkr" style="display: none" ;="">
+               <p><i>We prove a generalisation of the Hochschild–Kostant–Rosenberg theorem that holds for all
+commutative algebras and formal spaces. Using a A∞-version of the coendomorphism operad,
+we define the notion of a coalgebra on the Hochschild homology. Finally, we specialise to the case
+of iterated suspensions and construct the En+1-coalgebra coming from the Deligne conjecture
+on a model for the Hochschild chain complex.</i></p></a>
+            </div> </li>
 <li>Homotopy operations from the little cubes operad (with José M. Moreno-Fernández and Felix Wierstra) </li>
 </ol>	
 <p>The mathematical content of the first three "in-preparation" articles currently form the final three chapters of my thesis, a draft version (missing some non-mathematical elements such as the French introduction and acknowlegments) of which may be found below.</p>						
