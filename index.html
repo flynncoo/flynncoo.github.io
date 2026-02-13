@@ -4,25 +4,15 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-
-  <script>
-  function ToggleVisibility(divId) {
-  var x = document.getElementById(divId);
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-         }
-  }
-  </script>
 <html>
 	<head>
 		<title>Oisín Flynn-Connolly</title>
 		<meta charset="utf-8" />
+		<meta name="description" content="Academic website of Oisín Flynn-Connolly, postdoc at Leiden University. Research in homotopy theory, operads, and categorical probability." />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	
+
 	<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9X3KFNKSCT"></script>
 <script>
@@ -31,6 +21,16 @@
   gtag('js', new Date());
 
   gtag('config', 'G-9X3KFNKSCT');
+</script>
+<script>
+  function ToggleVisibility(divId) {
+    var x = document.getElementById(divId);
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
 </script>
 </head>
 	<body class="is-preload">
@@ -43,9 +43,9 @@
 							<li><a href="#intro">Welcome</a></li>
 							<li><a href="#research">Research</a></li>
 							<li><a href="#theses">Theses</a></li>
-							<li><a href="#talks">Talks and notes</a></li>	
+							<li><a href="#talks">Talks and notes</a></li>
 							<li><a href="#teaching">Teaching</a></li>
-							<li><a href=generic.html>About</a></li>
+							<li><a href="generic.html">About</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -60,7 +60,7 @@
 							<h1>Oisín Flynn-Connolly</h1>
 							<p>Welcome to my website. Since November 2024, I am a postdoc in Leiden University with <a href ="https://liacs.leidenuniv.nl/~basoldh/">Henning Basold</a> in the <a href ="https://stylo.liacs.nl/">StyLo team</a>. My research interests include:</p>
 								<ol>
-									<li><strong>Mathematics:</strong> Broadly, topics in higher algebra and homotopy theory with a strong combinatorial flavour, such as E_n-algebras. 
+									<li><strong>Mathematics:</strong> Broadly, topics in higher algebra and homotopy theory with a strong combinatorial flavour, such as E_n-algebras.
 									I am particularly fond of Koszul duality in its various incarnations and methods extending the techniques of rational homotopy theory to integral coefficients. </li>
 								    <li><strong>Theoretical computer science:</strong> I enjoy thinking about optimization through the lens of enriched categories and categorical probability theory. In particular, I find probability monads and Markov categories fun to play with. My research focuses on the geometric and algebraic structures arising from the interplay between optimization, homotopy theory, and differential geometry.</li>
 								</ol>
@@ -72,7 +72,7 @@
 
 <ul class="actions">
 									</ul>
-											
+
 						</div>
 					</section>
 
@@ -83,111 +83,106 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Research</h2>
-<p></p>The papers and preprints below are organised by topic.</p>
+<p>The papers and preprints below are organised by topic.</p>
 <p><b>Homotopy theory</b>
 </p>
 <ol>
 <li>A <em>p</em>-adic de Rham complex (<a href ="https://arxiv.org/abs/2501.10164">ArXiv</a>)  <em>New version in preparation</em>  <a onclick="ToggleVisibility(&#39;padic&#39;)">Abstract</a>
-            <div id="padic" style="display: none" ;="">
+            <div id="padic" style="display: none">
                <p><i> [There are issues with this paper all of which stem from a mistake in the proof of Lemma 3.11. I am working on fixing this] This is the second in the sequence of three articles exploring the relationship between
 commutative algebras and E<sub>∞</sub>-algebras in characteristic p and mixed characteristic. Given a
-topological space X, we construct, in a manner analogous to Sullivan’s A<sub>PL</sub>-functor, a strictly
+topological space X, we construct, in a manner analogous to Sullivan's A<sub>PL</sub>-functor, a strictly
 commutative algebra over the p-adic numbers which we call the de Rham forms on X. We show this complex
 computes the singular cohomology ring of X. We prove that it is quasi-isomorphic as an
 E<sub>∞</sub>-algebra to the Berthelot-Ogus-Deligne décalage of the singular cochains complex with
 respect to the p-adic filtration. We show that one
 can extract concrete invariants from our model, including Massey products which live in the
 torsion part of the cohomology. We show that if X is formal then, except at possibly finitely
-many primes, the p-adic de Rham forms on X are also formal.</i></p></a>
-            </div> </li>									
-<li>An obstruction theory for strictly commutative algebras in positive characteristic (<a href = "https://arxiv.org/pdf/2404.16681">ArXiv</a>) <em>Algebraic and Geometric Topology (<a href = "https://msp.org/soon/coming.php?jpath=agt">to appear</a>)</em> 
+many primes, the p-adic de Rham forms on X are also formal.</i></p>
+            </div> </li>
+<li>An obstruction theory for strictly commutative algebras in positive characteristic (<a href = "https://arxiv.org/pdf/2404.16681">ArXiv</a>) <em>Algebraic and Geometric Topology (<a href = "https://msp.org/soon/coming.php?jpath=agt">to appear</a>)</em>
             <a onclick="ToggleVisibility(&#39;art24&#39;)">Abstract</a>
-            <div id="art24" style="display: none" ;="">
-               <p {
- font-family: Arial;
- font-size: 6px;
-} ><i>This is chapter 4 in my thesis, which was part of collection looking into the relationship between commutative algebras and E<sub>&infin;</sub> algebras in characteristic p and mixed characteristic. I thought this was a cool topic to study because it seemed to be simplest context in which one needs new ideas from outside the classical operadic calculus to attack. It turned out that some old tools could be tweaked a bit; you could define "higher Massey products for the Frobenius maps" which I called cotriple products (though Fresse products might also have been an appropriate name) as they represent differentials in the cotriple resolution.  In a recent paper, Campos, Petersen, Robert-Nicoud and Wierstra asked about comparisons between commutative and associative quasi-isomorphisms, and we were able to use these products to answer the question in positive characteristic. Finally, the main theorem stated that E<sub>&infin;</sub> algebras are weakly equivalent to commutative algebras if and only if the higher Steenrod operations vanish *coherently*. The necessity of this coherence condition was my main disappointment with the paper - starting the project I had initially hoped that it was more pleasant than formality. On the plus side, I guess this leaves open the possibility of constructing faithful obstructions to future work. </i></p></a>
-            </div> 
+            <div id="art24" style="display: none">
+               <p><i>This is chapter 4 in my thesis, which was part of collection looking into the relationship between commutative algebras and E<sub>&infin;</sub> algebras in characteristic p and mixed characteristic. I thought this was a cool topic to study because it seemed to be simplest context in which one needs new ideas from outside the classical operadic calculus to attack. It turned out that some old tools could be tweaked a bit; you could define "higher Massey products for the Frobenius maps" which I called cotriple products (though Fresse products might also have been an appropriate name) as they represent differentials in the cotriple resolution.  In a recent paper, Campos, Petersen, Robert-Nicoud and Wierstra asked about comparisons between commutative and associative quasi-isomorphisms, and we were able to use these products to answer the question in positive characteristic. Finally, the main theorem stated that E<sub>&infin;</sub> algebras are weakly equivalent to commutative algebras if and only if the higher Steenrod operations vanish *coherently*. The necessity of this coherence condition was my main disappointment with the paper - starting the project I had initially hoped that it was more pleasant than formality. On the plus side, I guess this leaves open the possibility of constructing faithful obstructions to future work. </i></p>
+            </div>
 </li>
 <li> Higher order Massey products for algebras over algebraic operads (with José M. Moreno-Fernández) (<a href = "https://arxiv.org/pdf/2304.13411">ArXiv</a>) <em>Submitted</em>
             <a onclick="ToggleVisibility(&#39;massey&#39;)">Abstract</a>
-            <div id="massey" style="display: none" ;="">
-               <p><i>We introduce higher-order Massey products for algebras over algebraic operads. This extends the work of Fernando Muro on secondary ones. We study their basic properties and behavior with respect to morphisms of algebras and operads and give some connections to formality. We prove that these higher-order operations represent the differentials in a naturally associated operadic Eilenberg--Moore spectral sequence. We also study the interplay between particular choices of higher-order Massey products and quasi-isomorphic P<sub>∞</sub>-structures on the homology of a P-algebra. We focus on Koszul operads over a characteristic zero field and explain how our results generalize to the non-Koszul case.</i></p></a>
-            </div> 
+            <div id="massey" style="display: none">
+               <p><i>We introduce higher-order Massey products for algebras over algebraic operads. This extends the work of Fernando Muro on secondary ones. We study their basic properties and behavior with respect to morphisms of algebras and operads and give some connections to formality. We prove that these higher-order operations represent the differentials in a naturally associated operadic Eilenberg--Moore spectral sequence. We also study the interplay between particular choices of higher-order Massey products and quasi-isomorphic P<sub>∞</sub>-structures on the homology of a P-algebra. We focus on Koszul operads over a characteristic zero field and explain how our results generalize to the non-Koszul case.</i></p>
+            </div>
 </li>
 <li> A recognition principle for iterated suspensions as coalgebras over the little cubes operad (with José M. Moreno-Fernández and Felix Wierstra)
 (<a href = "https://arxiv.org/pdf/2210.00839">ArXiv</a>) <em>Submitted</em>             <a onclick="ToggleVisibility(&#39;rec&#39;)">Abstract</a>
-            <div id="rec" style="display: none" ;="">
-               <p><i>Our main result is a recognition principle for iterated suspensions as coalgebras over the little disks operads. Given a topological operad, we construct a comonad in pointed topological spaces endowed with the wedge product. We then prove an approximation theorem that shows that the comonad associated to the little n-cubes operad is weakly equivalent to the comonad Σ&#8319;Ω&#8319; arising from the suspension-loop space adjunction. Finally, our recognition theorem states that every little n-cubes coalgebra is homotopy equivalent to an n-fold suspension. These results are the Eckmann--Hilton dual of May's foundational results on iterated loop spaces.</i></p></a>
-            </div> 
+            <div id="rec" style="display: none">
+               <p><i>Our main result is a recognition principle for iterated suspensions as coalgebras over the little disks operads. Given a topological operad, we construct a comonad in pointed topological spaces endowed with the wedge product. We then prove an approximation theorem that shows that the comonad associated to the little n-cubes operad is weakly equivalent to the comonad Σ&#8319;Ω&#8319; arising from the suspension-loop space adjunction. Finally, our recognition theorem states that every little n-cubes coalgebra is homotopy equivalent to an n-fold suspension. These results are the Eckmann--Hilton dual of May's foundational results on iterated loop spaces.</i></p>
+            </div>
 </li>
-	 <li> Simplicial coendomorphism operads and coalgebras  (<a href="pdfs/papers
-/Simplicial_endomorphism_operads_and_coalgebras.pdf">local</a>), <em>Submitted</em>             <a onclick="ToggleVisibility(&#39;en&#39;)">Abstract</a>
-            <div id="en" style="display: none" ;="">
-               <p><i>  In recent work of Moreno-Fernandez, Wierstra and the author, a coendomorphism operad in the category of pointed topological spaces endowed with the wedge sum was introduced. In this paper, using Kan's $\exi$-functor, we construct an analogue completely internal to the category of simplicial sets with the goal of defining simplicial coalgebras. As an application, we show that simplicial $n$-fold suspensions are coalgebras up to coherent homotopy over the Barratt--Eccles $E_n$-operad.</i></p></a>
-            </div> 
+	 <li> Simplicial coendomorphism operads and coalgebras  (<a href="pdfs/papers/Simplicial_endomorphism_operads_and_coalgebras.pdf">local</a>), <em>Submitted</em>             <a onclick="ToggleVisibility(&#39;en&#39;)">Abstract</a>
+            <div id="en" style="display: none">
+               <p><i>  In recent work of Moreno-Fernandez, Wierstra and the author, a coendomorphism operad in the category of pointed topological spaces endowed with the wedge sum was introduced. In this paper, using Kan's $\exi$-functor, we construct an analogue completely internal to the category of simplicial sets with the goal of defining simplicial coalgebras. As an application, we show that simplicial $n$-fold suspensions are coalgebras up to coherent homotopy over the Barratt--Eccles $E_n$-operad.</i></p>
+            </div>
 </li>
 <li>Three Schur functors related to pre-Lie algebras (with Vladimir Dotsenko) (<a href = "https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/abs/three-schur-functors-related-to-prelie-algebras/2A29183971A52031B1F4E2903342C995">journal</a>, <a href="https://arxiv.org/pdf/2001.00780">ArXiv </a>) <em>Mathematical Proceedings of Cambridge Philosophical Society (2024)</em>
             <a onclick="ToggleVisibility(&#39;preLie&#39;)">Abstract</a>
-            <div id="preLie" style="display: none" ;="">
-               <p><i>We give explicit combinatorial descriptions of three Schur functors arising in the theory of pre-Lie algebras. The first of them leads to a functorial description of the underlying vector space of the universal enveloping pre-Lie algebra of a given Lie algebra, strengthening the PBW theorem of Segal. The two other Schur functors provide functorial descriptions of the underlying vector spaces of the universal multiplicative enveloping algebra and of the module of Kähler differentials of a given pre-Lie algebra. An important consequence of such descriptions is an interpretation of the cohomology of a pre-Lie algebra with coefficients in a module as a derived functor for the category of modules over the universal multiplicative enveloping algebra.</i></p></a>
-            </div> 
+            <div id="preLie" style="display: none">
+               <p><i>We give explicit combinatorial descriptions of three Schur functors arising in the theory of pre-Lie algebras. The first of them leads to a functorial description of the underlying vector space of the universal enveloping pre-Lie algebra of a given Lie algebra, strengthening the PBW theorem of Segal. The two other Schur functors provide functorial descriptions of the underlying vector spaces of the universal multiplicative enveloping algebra and of the module of Kähler differentials of a given pre-Lie algebra. An important consequence of such descriptions is an interpretation of the cohomology of a pre-Lie algebra with coefficients in a module as a derived functor for the category of modules over the universal multiplicative enveloping algebra.</i></p>
+            </div>
 
 </li></ol>
 <p><b>Theoretical Computer Science</b>
 	<ol>
 <li>Central limits via dilated categories (with Henning Basold, Chase Ford and Hao Wang) <em>Submitted</em>  <a onclick="ToggleVisibility(&#39;clt&#39;)">Abstract</a>
-            <div id="clt" style="display: none" ;="">
+            <div id="clt" style="display: none">
                <p><i>  The Central Limit Theorem (CLT) establishes that sufficiently large sequences of independent and identically distributed random variables converge in probability to a normal distribution. This makes the CLT a fundamental building block of statistical reasoning and, by extension, in reasoning about computing systems that are based on statistical inference such as probabilistic programing languages, programs with optimisation, and machine learning components.
-However, there is no general theory of CLT-like results currently, which forces practitioners to redo proofs without having a good handle on the essential ingredients of CLT-type results. In this paper, we introduce dilated seminorm-enriched category theory as a unifying framework for central limits, and we establish an abstract central limit theorem within that framework. We illustrate how a strengthened version of the classical CLT and the law of large numbers can be obtained as instances of our framework. Moreover, we derive from our framework a novel central limit theorem for symplectic manifolds, the CLT for observables, which finds applications in statistical mechanics.</i></p></a>
-            </div> </li>									
+However, there is no general theory of CLT-like results currently, which forces practitioners to redo proofs without having a good handle on the essential ingredients of CLT-type results. In this paper, we introduce dilated seminorm-enriched category theory as a unifying framework for central limits, and we establish an abstract central limit theorem within that framework. We illustrate how a strengthened version of the classical CLT and the law of large numbers can be obtained as instances of our framework. Moreover, we derive from our framework a novel central limit theorem for symplectic manifolds, the CLT for observables, which finds applications in statistical mechanics.</i></p>
+            </div> </li>
 	</ol>
 <p><b>Number Theory</b></p>
 <ol>
 <li>On the divisibility of sums of Fibonacci numbers  (<a href="https://math.colgate.edu/~integers/z87/z87.pdf">journal</a>, <a href="https://arxiv.org/abs/2504.09938">ArXiv</a>), <em>Integers: Electronic Journal of Combinatorial Number Theory (2025)</em> <a onclick="ToggleVisibility(&#39;fibonacci&#39;)">Abstract</a>
-            <div id="fibonacci" style="display: none" ;="">
-               <p><i>We show that for infinitely many odd integers $n$, the sum of the first $n$ Fibonacci numbers is divisible by $n$. This resolves a conjecture of Fatehizadeh and Yaqubi. Comments: As of February 2026, this is the fastest paper I have ever written; it took only about a weekend after becoming obsessed with the problem (after randomly happening upon while googling something else).  It is also the only paper that I have ever used a computer for - after guessing recursion was key, I used Python to find some examples and eventually to spot the pattern the paper is based on.</i></p></a>
-            </div> </li
+            <div id="fibonacci" style="display: none">
+               <p><i>We show that for infinitely many odd integers $n$, the sum of the first $n$ Fibonacci numbers is divisible by $n$. This resolves a conjecture of Fatehizadeh and Yaqubi. Comments: As of February 2026, this is the fastest paper I have ever written; it took only about a weekend after becoming obsessed with the problem (after randomly happening upon while googling something else).  It is also the only paper that I have ever used a computer for - after guessing recursion was key, I used Python to find some examples and eventually to spot the pattern the paper is based on.</i></p>
+            </div> </li>
 </ol>
 <p><b>Expository</b></p>
 <ol>
-<li>On associative and commutative differential graded algebras in positive characteristic  (<a href="https://link.springer.com/article/10.1007/s00283-025-10472-4">journal</a>, <a href="pdfs/papers
-/On_associative_and_commutative_differential_graded_algebras_in_positive_characteristic (1).pdf">local</a>), <em>Mathematical Intelligencer (2026)</em> <a onclick="ToggleVisibility(&#39;acc&#39;)">Abstract</a>
-            <div id="acc" style="display: none" ;="">
-               <p><i>This is an expository paper, explaining one of the constructions in "An obstruction theory for strictly commutative algebras in positive characteristic" to the general reader. </i></p></a>
+<li>On associative and commutative differential graded algebras in positive characteristic  (<a href="https://link.springer.com/article/10.1007/s00283-025-10472-4">journal</a>, <a href="pdfs/papers/On_associative_and_commutative_differential_graded_algebras_in_positive_characteristic (1).pdf">local</a>), <em>Mathematical Intelligencer (2026)</em> <a onclick="ToggleVisibility(&#39;acc&#39;)">Abstract</a>
+            <div id="acc" style="display: none">
+               <p><i>This is an expository paper, explaining one of the constructions in "An obstruction theory for strictly commutative algebras in positive characteristic" to the general reader. </i></p>
             </div> </li>
-</ol>										
+</ol>
 <p><b>In preparation</b></p>
 <p>These articles currently exist as the final two chapters of <a href="pdfs/PhD_thesis__ED_version_.pdf">my thesis</a> and will hopefully be adapted into articles shortly.</p>
 <ol>
 <li>Homotopically, E-infinity algebras do not generalise commutative dg-algebras <a onclick="ToggleVisibility(&#39;noteq&#39;)">Abstract</a>
-            <div id="noteq" style="display: none" ;="">
+            <div id="noteq" style="display: none">
                <p><i>This is the third article exploring the relationship between commutative algebras and E<sub>∞</sub>-
 algebras in characteristic p and mixed characteristic. In this paper, we show that, in characteristic
 2, the homotopy category of strictly commutative dg-algebras does not form a subcategory of
 the homotopy category of E<sub>∞</sub>-algebras. This is done by constructing a explicit example of two
 strictly commutative algebras that are quasi-isomorphic in the category of E<sub>∞</sub>-algebras but not
 the category of strictly commutative algebras. The construction is based on the theory of cotriple
-operations.</i></p></a>
+operations.</i></p>
             </div> </li>
 <li>A higher Hochschild-Konstant-Rosenberg Theorem and the Deligne conjecture <a onclick="ToggleVisibility(&#39;hkr&#39;)">Abstract</a>
-            <div id="hkr" style="display: none" ;="">
+            <div id="hkr" style="display: none">
                <p><i>We prove a generalisation of the Hochschild–Kostant–Rosenberg theorem that holds for all
 commutative algebras and formal spaces. Using a A<sub>∞</sub>-version of the coendomorphism operad,
 we define the notion of a coalgebra on the Hochschild homology. Finally, we specialise to the case
 of iterated suspensions and construct the E<sub>n+1</sub>-coalgebra coming from the Deligne conjecture
-on a model for the Hochschild chain complex.</i></p></a>
+on a model for the Hochschild chain complex.</i></p>
             </div> </li>
-</ol>	
+</ol>
 
 <p><b>Ongoing projects</b></p>
 <ol>
 	<li>A categorical approach to optimization (with Henning Basold, Chase Ford and Hao Wang) <a onclick="ToggleVisibility(&#39;gauss&#39;)">Abstract</a>
-            <div id="gauss" style="display: none" ;="">
-               <p><i>This project aims to study optimization processes through the lens of enriched category theory. First, we developed machinery for understanding the Central Limit Theorem and analytic convergence in an algebraic and categorical context. Second, we will apply this to model Stochastic Differential Equations within the category of diffeological spaces. Finally, we hope to conclude the project by integrating homotopy theory in order to study homotopical optimization processes. </i></p></a>
+            <div id="gauss" style="display: none">
+               <p><i>This project aims to study optimization processes through the lens of enriched category theory. First, we developed machinery for understanding the Central Limit Theorem and analytic convergence in an algebraic and categorical context. Second, we will apply this to model Stochastic Differential Equations within the category of diffeological spaces. Finally, we hope to conclude the project by integrating homotopy theory in order to study homotopical optimization processes. </i></p>
             </div> </li>
 </ol>
-						
+
 								</div>
 							</div>
 						</section>
@@ -199,18 +194,18 @@ on a model for the Hochschild chain complex.</i></p></a>
 <ol>
 <li>PhD thesis: <em> Higher commutativity in algebra and algebraic topology</em> (<a href="https://theses.hal.science/tel-04974557">HAL</a>, <a href="pdfs/PhD_thesis__ED_version_.pdf">pdf</a>), defended 4/10/24 (<a href ="pdfs/PhD_defence (7).pdf">slides</a>), supervised by Grégory Ginot</li>
 <li>Master thesis: <em>The homotopy theory of the little n-discs operad</em> (<a href="pdfs/master_thesis.pdf">pdf</a>), defended 17/07/20 (<a href ="pdfs/Master_Defense.pdf">slides</a>), supervised by Felix Wierstra</li>
-</ol>	
-								
+</ol>
+
 								</div>
 							</div>
 						</section>
-					
+
 					</section>
 <section id="talks" class="wrapper style2 fade-up">
-						<div class="inner">					
+						<div class="inner">
 <h2>Talks and notes</h2>
 
-<b>Research talks</b>						
+<b>Research talks</b>
 <ol>
 <li><em>Determinant Massey products</em>, November 2025, Topological Activities seminar, Stockholm University
 </li>
@@ -228,13 +223,13 @@ on a model for the Hochschild chain complex.</i></p></a>
 <li><em>The geometry of iterated suspensions</em>, October 2023, Séminaire de l'équipe Topologie Algébrique, Université Sorbonne Paris Nord</li>
 </ol>
 
-							
+
 <b>Poster presentations</b>
 							<ol>
 <li><em>Corecognition for iterated suspensions </em>, July 2023, Young Topologist's Meeting, Lausanne. <a href="pdfs/EPFL_Poster_Presentation.pdf">Poster</a></li>
 <li><em>Corecognition for iterated suspensions</em>, September 2023, 36th Meeting of the Irish Mathematical Society</li>
 							</ol>
-							
+
 <b>Expository talks</b>
 							<ol>
 <li><em>Homotopy Probability Theory I, II (3 talks) </em>, March-April 2025, STyLo probability seminar, Leiden University</li>
@@ -242,36 +237,32 @@ on a model for the Hochschild chain complex.</i></p></a>
 <li><em>Introduction to ∞-categories</em>, November 2022, PhD topology seminar of  USPN</li>
 							</ol>
 
-										</li>
-									</ul>
-							A complete list of attended conferences and research visits may be found on my <a href ="activities.html">Activities page.</a>
-								</section>
+						A complete list of attended conferences and research visits may be found on my <a href ="activities.html">Activities page.</a>
+							</section>
 					</section>
 
 				<!-- Three -->
-				
+
 <section id="teaching" class="wrapper style3 fade-up">
 						<div class="inner">
-					
+
 <h2>Teaching</h2>
 <p><b>Classes</b></p>
-<b>2025-2026</b>						
+<b>2025-2026</b>
 <ol>
 <li><em>Mathematical Structures in Computer Science (lecturer and tutorial supervision)</em>, third year, Leiden University </li>
-</ol> 
-							
-<b>2020-2021</b>						
+</ol>
+
+<b>2020-2021</b>
 <ol>
 <li><em>Analyse 2 (chargé de TD)</em>, first year, USPN </li>
 <li><em>Algèbre 6 (chargé de TD)</em>, third year, USPN</li>
 </ol>
-<b>2018-2019</b>						
+<b>2018-2019</b>
 <ol>
 <li>Trinity Access Program - <em> Maths for STEM component</em> (tutorial supervision), first year, Trinity College Dublin</li>
 </ol>
 
-										</li>
-									</ul>
 <b>Student supervision</b>
 							<ol>
 								<li>Jamie Wiskerke (joint supervision with H. Basold and  R. Hazra), <em>Probability theory in the Category of Diffeological Spaces</em> (Bachelor)</li>
@@ -300,58 +291,3 @@ on a model for the Hochschild chain complex.</i></p></a>
 
 	</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
