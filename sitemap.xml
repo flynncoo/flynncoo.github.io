@@ -11,11 +11,6 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://flynncoo.github.io/index.html</loc>
-  <lastmod>2026-02-13</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://flynncoo.github.io/generic.html</loc>
   <lastmod>2026-02-13</lastmod>
   <priority>0.80</priority>
@@ -31,9 +26,14 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://flynncoo.github.io/elements.html</loc>
+  <loc>https://flynncoo.github.io/now_page.html</loc>
   <lastmod>2026-02-13</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://flynncoo.github.io/citation.html</loc>
+  <lastmod>2026-02-13</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://flynncoo.github.io/pdfs/PhD_thesis__ED_version_.pdf</loc>
