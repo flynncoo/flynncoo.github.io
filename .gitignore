@@ -1,1 +1,23 @@
 CLAUDE.md
+
+# TeX and auxiliary files
+*.tex
+*.aux
+*.log
+*.bbl
+*.blg
+*.brf
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.nav
+*.snm
+*.vrb
+*.bcf
+*.run.xml
+*.dvi
+*.ps
