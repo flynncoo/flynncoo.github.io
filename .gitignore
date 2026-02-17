@@ -1,5 +1,11 @@
 CLAUDE.md
 
+.DS_Store
+__pycache__/
+*.pyc
+generate_operad.py
+little_cubes_preview.png
+
 # TeX and auxiliary files
 *.tex
 *.aux
