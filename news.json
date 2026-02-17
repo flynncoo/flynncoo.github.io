@@ -1,0 +1,44 @@
+[
+  {
+    "type": "article",
+    "date": "2026-02-01",
+    "title": "Central limits via dilated categories",
+    "description": "New preprint with Henning Basold, Chase Ford and Hao Wang. We introduce dilated seminorm-enriched category theory as a unifying framework for central limits.",
+    "url": ""
+  },
+  {
+    "type": "article",
+    "date": "2026-01-01",
+    "title": "On associative and commutative differential graded algebras in positive characteristic",
+    "description": "Expository paper published in Mathematical Intelligencer (2026).",
+    "url": "https://link.springer.com/article/10.1007/s00283-025-10472-4"
+  },
+  {
+    "type": "article",
+    "date": "2025-12-01",
+    "title": "On the divisibility of sums of Fibonacci numbers",
+    "description": "Published in Integers: Electronic Journal of Combinatorial Number Theory (2025).",
+    "url": "https://math.colgate.edu/~integers/z87/z87.pdf"
+  },
+  {
+    "type": "conference",
+    "date": "2025-11-15",
+    "title": "Determinant Massey products — Topological Activities seminar, Stockholm University",
+    "description": "Research talk, November 2025.",
+    "url": ""
+  },
+  {
+    "type": "conference",
+    "date": "2025-03-15",
+    "title": "Co-Eilenberg Moore categories for operads — NetTCS, University of Twente",
+    "description": "Research talk, March 2025.",
+    "url": ""
+  },
+  {
+    "type": "event",
+    "date": "2025-09-01",
+    "title": "Mathematical Structures in Computer Science — Leiden University",
+    "description": "Lecturer and tutorial supervision, third year course, 2025–2026.",
+    "url": ""
+  }
+]

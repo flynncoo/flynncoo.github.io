@@ -4,21 +4,158 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 	<head>
-		<title>Research Interests</title>
+		<title>Now | Oisín Flynn-Connolly</title>
 		<meta charset="utf-8" />
+		<meta name="description" content="What Oisín Flynn-Connolly is focused on right now." />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="canonical" href="https://flynncoo.github.io/now_page.html" />
+		<link rel="alternate" type="application/rss+xml" title="Oisín Flynn-Connolly — Now Feed" href="https://flynncoo.github.io/now.xml" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Timeline feed */
+			.timeline {
+				position: relative;
+				padding-left: 2em;
+				margin-top: 1.5em;
+			}
+			.timeline::before {
+				content: '';
+				position: absolute;
+				left: 0.45em;
+				top: 0.4em;
+				bottom: 0;
+				width: 2px;
+				background: rgba(255, 255, 255, 0.15);
+			}
+			.timeline-item {
+				position: relative;
+				padding-bottom: 2em;
+			}
+			.timeline-item:last-child {
+				padding-bottom: 0;
+			}
+			.timeline-dot {
+				position: absolute;
+				left: -1.75em;
+				top: 0.35em;
+				width: 12px;
+				height: 12px;
+				border-radius: 50%;
+				border: 2px solid;
+			}
+			.timeline-dot.dot-article {
+				border-color: #6ab4ff;
+				background: rgba(100, 180, 255, 0.3);
+			}
+			.timeline-dot.dot-conference {
+				border-color: #ffb464;
+				background: rgba(255, 180, 100, 0.3);
+			}
+			.timeline-dot.dot-event {
+				border-color: #b48eff;
+				background: rgba(180, 142, 255, 0.3);
+			}
+			.timeline-date {
+				font-size: 0.8em;
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
+				color: rgba(255, 255, 255, 0.4);
+				margin-bottom: 0.3em;
+			}
+			.timeline-title {
+				font-size: 1.05em;
+				font-weight: 600;
+				margin-bottom: 0.3em;
+				line-height: 1.4;
+			}
+			.timeline-title a {
+				border-bottom: 1px dotted rgba(255, 255, 255, 0.35);
+			}
+			.timeline-title a:hover {
+				border-bottom-style: solid;
+			}
+			.timeline-desc {
+				font-size: 0.9em;
+				color: rgba(255, 255, 255, 0.6);
+				line-height: 1.5;
+			}
+			.timeline-badge {
+				display: inline-block;
+				font-size: 0.65em;
+				font-weight: 700;
+				padding: 0.2em 0.6em;
+				border-radius: 3px;
+				text-transform: uppercase;
+				letter-spacing: 0.08em;
+				vertical-align: middle;
+				margin-left: 0.6em;
+				position: relative;
+				top: -0.1em;
+			}
+			.badge-article    { background: rgba(100, 180, 255, 0.15); color: #6ab4ff; }
+			.badge-conference { background: rgba(255, 180, 100, 0.15); color: #ffb464; }
+			.badge-event      { background: rgba(180, 142, 255, 0.15); color: #b48eff; }
+
+			/* Filter buttons */
+			.feed-filters {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.5em;
+				margin-bottom: 1.5em;
+				align-items: center;
+			}
+			.feed-filters span {
+				font-size: 0.85em;
+				color: rgba(255, 255, 255, 0.5);
+				margin-right: 0.3em;
+			}
+			.filter-btn {
+				font-size: 0.8em;
+				padding: 0.35em 0.9em;
+				border-radius: 2em;
+				border: 1px solid rgba(255, 255, 255, 0.2);
+				background: transparent;
+				color: rgba(255, 255, 255, 0.6);
+				cursor: pointer;
+				transition: all 0.2s ease;
+				font-family: inherit;
+			}
+			.filter-btn:hover {
+				border-color: rgba(255, 255, 255, 0.4);
+				color: rgba(255, 255, 255, 0.9);
+			}
+			.filter-btn.active {
+				background: rgba(255, 255, 255, 0.1);
+				border-color: rgba(255, 255, 255, 0.4);
+				color: #fff;
+			}
+
+			/* RSS link */
+			.rss-link {
+				font-size: 0.85em;
+				margin-left: auto;
+			}
+			.rss-link a {
+				color: rgba(255, 255, 255, 0.5);
+				border-bottom: none !important;
+			}
+			.rss-link a:hover {
+				color: #ffb464;
+			}
+			.rss-link .fa-rss {
+				margin-right: 0.3em;
+			}
+		</style>
 	</head>
-	<!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9X3KFNKSCT"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-9X3KFNKSCT');
 </script>
 	<body class="is-preload">
@@ -29,8 +166,8 @@
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
+						<li><a href="now_page.html" class="active">Now</a></li>
 						<li><a href="generic.html">About me</a></li>
-						<li><a href="elements.html">Random stuff</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -38,17 +175,38 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Main -->
+				<!-- Big Picture -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Research Interests</h1>
-						
-	<p> In this page, I want to briefly discuss what I'm getting up to at the moment. If you have any interesting ideas, please get in touch.</p>
-	<ol> 
-	<li>Optimization Algorithms: Right now this project is taking the bulk of my time. Together with Henning Basold, Chase Ford and Hao Wang, I've been thinking about optimization algorithms from a category theoretic standpoint. To understand algorithms like stochastic gradient descent, it is first necessary to understand probability theory from a categorical viewpoint. Fortunately, some great mathematicians have already thought about this.   </li>
-		
-	
-	</ol>
+							<h1 class="major">Now</h1>
+							<p><em>This is a <a href="https://nownownow.com/about">Now page</a>, inspired by Derek Sivers. Last updated February 2026.</em></p>
+
+							<h2>The Big Picture</h2>
+
+							<h3>Research</h3>
+							<p>I have recently transitioned more into theoretical computer science. The signficant amount of this time is going into a project with Henning Basold, Chase Ford and Hao Wang on studying optimization algorithms from a category-theoretic standpoint. We recently submitted our first paper, <em>Central limits via dilated categories</em>, which introduces dilated seminorm-enriched category theory to study  central limit-type theorems. The next step is to model stochastic differential equations within the category of diffeological spaces, and eventually to bring in homotopy theory to study homotopical optimization processes.</p>
+
+							<p>On the pure maths side, I am working on fixing the issues in some existing papers. I also have some ongoing projects with Jose Moreno-Fernandez..</p>
+
+							<h3>Teaching</h3>
+							<p>This academic year I am lecturing and running tutorials for <em>Mathematical Structures in Computer Science</em>, a third-year course at Leiden University.</p>
+
+							<hr />
+
+							<h2>Recent Activity</h2>
+
+							<div class="feed-filters">
+								<span>Show:</span>
+								<button class="filter-btn active" data-filter="all">All</button>
+								<button class="filter-btn" data-filter="article">Articles</button>
+								<button class="filter-btn" data-filter="conference">Talks</button>
+								<button class="filter-btn" data-filter="event">Events</button>
+								<span class="rss-link"><a href="now.xml"><i class="fas fa-rss"></i>RSS</a></span>
+							</div>
+
+							<div id="feed-timeline" class="timeline"></div>
+						</div>
+					</section>
 			</div>
 
 		<!-- Footer -->
@@ -68,6 +226,69 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				(function() {
+					var allItems = [];
+
+					var typeLabels = {
+						article:    'Article',
+						conference: 'Talk',
+						event:      'Event'
+					};
+
+					function renderTimeline(filter) {
+						var container = document.getElementById('feed-timeline');
+						var items = filter === 'all'
+							? allItems
+							: allItems.filter(function(item) { return item.type === filter; });
+
+						if (items.length === 0) {
+							container.innerHTML = '<p style="color: rgba(255,255,255,0.4); font-style: italic;">No items to show.</p>';
+							return;
+						}
+
+						var html = '';
+						items.forEach(function(item) {
+							var dt = new Date(item.date + 'T00:00:00');
+							var dateStr = dt.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+							var title = item.url
+								? '<a href="' + item.url + '">' + item.title + '</a>'
+								: item.title;
+
+							html += '<div class="timeline-item" data-type="' + item.type + '">'
+								+ '<div class="timeline-dot dot-' + item.type + '"></div>'
+								+ '<div class="timeline-date">' + dateStr + '</div>'
+								+ '<div class="timeline-title">'
+								+   title
+								+   '<span class="timeline-badge badge-' + item.type + '">' + typeLabels[item.type] + '</span>'
+								+ '</div>'
+								+ '<div class="timeline-desc">' + item.description + '</div>'
+								+ '</div>';
+						});
+						container.innerHTML = html;
+					}
+
+					// Filter buttons
+					document.querySelectorAll('.filter-btn').forEach(function(btn) {
+						btn.addEventListener('click', function() {
+							document.querySelectorAll('.filter-btn').forEach(function(b) {
+								b.classList.remove('active');
+							});
+							btn.classList.add('active');
+							renderTimeline(btn.getAttribute('data-filter'));
+						});
+					});
+
+					// Load data
+					fetch('news.json')
+						.then(function(r) { return r.json(); })
+						.then(function(items) {
+							items.sort(function(a, b) { return b.date.localeCompare(a.date); });
+							allItems = items;
+							renderTimeline('all');
+						});
+				})();
+			</script>
 
 	</body>
 </html>

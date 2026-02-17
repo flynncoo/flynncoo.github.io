@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oisín Flynn-Connolly — Now</title>
+    <link>https://flynncoo.github.io/now_page.html</link>
+    <description>Recent articles, talks, and events from Oisín Flynn-Connolly.</description>
+    <language>en</language>
+    <lastBuildDate>Tue, 17 Feb 2026 10:32:55 +0000</lastBuildDate>
+    <atom:link href="https://flynncoo.github.io/now.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Central limits via dilated categories</title>
+      <link>https://flynncoo.github.io/now_page.html</link>
+      <description>New preprint with Henning Basold, Chase Ford and Hao Wang. We introduce dilated seminorm-enriched category theory as a unifying framework for central limits.</description>
+      <category>article</category>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">ab49bf1e3788</guid>
+    </item>
+    <item>
+      <title>On associative and commutative differential graded algebras in positive characteristic</title>
+      <link>https://link.springer.com/article/10.1007/s00283-025-10472-4</link>
+      <description>Expository paper published in Mathematical Intelligencer (2026).</description>
+      <category>article</category>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d1189a725b13</guid>
+    </item>
+    <item>
+      <title>On the divisibility of sums of Fibonacci numbers</title>
+      <link>https://math.colgate.edu/~integers/z87/z87.pdf</link>
+      <description>Published in Integers: Electronic Journal of Combinatorial Number Theory (2025).</description>
+      <category>article</category>
+      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">06f2c451247c</guid>
+    </item>
+    <item>
+      <title>Determinant Massey products — Topological Activities seminar, Stockholm University</title>
+      <link>https://flynncoo.github.io/now_page.html</link>
+      <description>Research talk, November 2025.</description>
+      <category>conference</category>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">1091c8b17fb2</guid>
+    </item>
+    <item>
+      <title>Mathematical Structures in Computer Science — Leiden University</title>
+      <link>https://flynncoo.github.io/now_page.html</link>
+      <description>Lecturer and tutorial supervision, third year course, 2025–2026.</description>
+      <category>event</category>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">8c1824ca6f4b</guid>
+    </item>
+    <item>
+      <title>Co-Eilenberg Moore categories for operads — NetTCS, University of Twente</title>
+      <link>https://flynncoo.github.io/now_page.html</link>
+      <description>Research talk, March 2025.</description>
+      <category>conference</category>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">e752131b9d99</guid>
+    </item>
+  </channel>
+</rss>
