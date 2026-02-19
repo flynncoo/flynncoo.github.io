@@ -1,59 +1,280 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Oisín Flynn-Connolly — Now</title>
-    <link>https://flynncoo.github.io/now_page.html</link>
-    <description>Recent articles, talks, and events from Oisín Flynn-Connolly.</description>
+    <title>Oisín Flynn-Connolly — Papers and Talks</title>
+    <link>https://flynncoo.github.io/</link>
+    <description>Papers, talks, and events from Oisín Flynn-Connolly, postdoc at Leiden University.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Feb 2026 12:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://flynncoo.github.io/now.xml" rel="self" type="application/rss+xml" />
+
+    <!-- 2026 -->
     <item>
-      <title>Central limits via dilated categories</title>
-      <link>https://flynncoo.github.io/now_page.html</link>
-      <description>New preprint with Henning Basold, Chase Ford and Hao Wang. We introduce dilated seminorm-enriched category theory as a unifying framework for central limits.</description>
-      <category>article</category>
+      <title>An obstruction theory for strictly commutative algebras in positive characteristic — published in AGT</title>
+      <link>https://msp.org/agt/2026/26-2/p12.xhtml</link>
+      <description>Published in Algebraic and Geometric Topology, 11 February 2026. Defines cotriple products and shows E∞-algebras are weakly equivalent to commutative algebras iff higher Steenrod operations vanish coherently.</description>
+      <category>publication</category>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">a4c3e8f21b09</guid>
+    </item>
+    <item>
+      <title>Central limits via dilated categories — preprint</title>
+      <link>https://flynncoo.github.io/</link>
+      <description>New preprint with Henning Basold, Chase Ford and Hao Wang. Introduces dilated seminorm-enriched category theory as a unifying framework for central limits, with applications to the classical CLT and a novel CLT for symplectic manifolds.</description>
+      <category>preprint</category>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ab49bf1e3788</guid>
     </item>
+
+    <!-- 2025 -->
     <item>
       <title>On associative and commutative differential graded algebras in positive characteristic</title>
       <link>https://link.springer.com/article/10.1007/s00283-025-10472-4</link>
-      <description>Expository paper published in Mathematical Intelligencer (2026).</description>
-      <category>article</category>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <description>Published online in Mathematical Intelligencer, 27 December 2025. Expository paper explaining constructions from the obstruction theory paper for a general mathematical audience.</description>
+      <category>publication</category>
+      <pubDate>Sat, 27 Dec 2025 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d1189a725b13</guid>
     </item>
     <item>
-      <title>On the divisibility of sums of Fibonacci numbers</title>
-      <link>https://math.colgate.edu/~integers/z87/z87.pdf</link>
-      <description>Published in Integers: Electronic Journal of Combinatorial Number Theory (2025).</description>
-      <category>article</category>
-      <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">06f2c451247c</guid>
-    </item>
-    <item>
       <title>Determinant Massey products — Topological Activities seminar, Stockholm University</title>
-      <link>https://flynncoo.github.io/now_page.html</link>
-      <description>Research talk, November 2025.</description>
+      <link>https://www.kth.se/math/kalender/topactivities/oisin-flynn-connolly-determinant-massey-product-1.1436998</link>
+      <description>Research talk, 4 November 2025.</description>
       <category>conference</category>
-      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">1091c8b17fb2</guid>
     </item>
     <item>
+      <title>On the divisibility of sums of Fibonacci numbers — published in Integers</title>
+      <link>https://math.colgate.edu/~integers/z87/z87.pdf</link>
+      <description>Published in Integers: Electronic Journal of Combinatorial Number Theory 25 (2025), #A87, 17 September 2025. Shows that for infinitely many odd integers n, the sum of the first n Fibonacci numbers is divisible by n, resolving a conjecture of Fatehizadeh and Yaqubi.</description>
+      <category>publication</category>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">06f2c451247c</guid>
+    </item>
+    <item>
       <title>Mathematical Structures in Computer Science — Leiden University</title>
-      <link>https://flynncoo.github.io/now_page.html</link>
-      <description>Lecturer and tutorial supervision, third year course, 2025–2026.</description>
+      <link>https://flynncoo.github.io/</link>
+      <description>Lecturer and tutorial supervision for third-year course at Leiden University, 2025–2026.</description>
       <category>event</category>
       <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">8c1824ca6f4b</guid>
     </item>
     <item>
+      <title>Homotopy Probability Theory I &amp; II — STyLo seminar, Leiden University</title>
+      <link>https://stylo.liacs.nl/seminar/</link>
+      <description>Three expository talks on homotopy probability theory, March–April 2025, STyLo probability seminar, Leiden University.</description>
+      <category>conference</category>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c3a7f9b24d51</guid>
+    </item>
+    <item>
+      <title>On the divisibility of sums of Fibonacci numbers — preprint</title>
+      <link>https://arxiv.org/abs/2504.09938</link>
+      <description>Preprint posted to arXiv, 14 April 2025. Shows that for infinitely many odd integers n, the sum of the first n Fibonacci numbers is divisible by n, resolving a conjecture of Fatehizadeh and Yaqubi. Published in Integers (2025).</description>
+      <category>preprint</category>
+      <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">9f1a6b38e724</guid>
+    </item>
+    <item>
       <title>Co-Eilenberg Moore categories for operads — NetTCS, University of Twente</title>
-      <link>https://flynncoo.github.io/now_page.html</link>
+      <link>https://nettcs.cs.ru.nl/</link>
       <description>Research talk, March 2025.</description>
       <category>conference</category>
       <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e752131b9d99</guid>
     </item>
+    <item>
+      <title>Corecognition for iterated suspensions — Theory seminar, Leiden University</title>
+      <link>https://flynncoo.github.io/</link>
+      <description>Research talk, February 2025.</description>
+      <category>conference</category>
+      <pubDate>Sat, 15 Feb 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">7e4b1c83a902</guid>
+    </item>
+    <item>
+      <title>A p-adic de Rham complex — preprint</title>
+      <link>https://arxiv.org/abs/2501.10164</link>
+      <description>Preprint posted to arXiv, 17 January 2025 (new version in preparation). Constructs, analogously to Sullivan's A_PL-functor, a strictly commutative algebra over the p-adic numbers computing singular cohomology, quasi-isomorphic as an E∞-algebra to the Berthelot–Ogus–Deligne décalage of singular cochains.</description>
+      <category>preprint</category>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">f8d2e5a71c34</guid>
+    </item>
+
+    <!-- 2024 -->
+    <item>
+      <title>Corecognition for iterated suspensions — Rencontre 2024 de Topologie algébrique, Toulouse</title>
+      <link>https://indico.math.cnrs.fr/event/12304/</link>
+      <description>Research talk, October 2024.</description>
+      <category>conference</category>
+      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2b9c6d80e475</guid>
+    </item>
+    <item>
+      <title>PhD thesis defence: Higher commutativity in algebra and algebraic topology</title>
+      <link>https://theses.hal.science/tel-04974557</link>
+      <description>PhD thesis defended 4 October 2024, supervised by Grégory Ginot, Université Sorbonne Paris Nord.</description>
+      <category>event</category>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">9d3f7a15b6c2</guid>
+    </item>
+    <item>
+      <title>Strictly commutative algebra in positive characteristic — Séminaire Topologie, Université de Lille</title>
+      <link>https://math.univ-lille.fr/detail-event/tba-oisin-flynn-connolly</link>
+      <description>Research talk, 27 September 2024.</description>
+      <category>conference</category>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">4e1a8c29f703</guid>
+    </item>
+    <item>
+      <title>Strictly commutative algebra in positive characteristic — Séminaire d'Homotopie et Géométrie Algébrique, Toulouse</title>
+      <link>https://indico.math.cnrs.fr/event/12359/</link>
+      <description>Research talk, 17 September 2024.</description>
+      <category>conference</category>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">6c5b3e90d182</guid>
+    </item>
+    <item>
+      <title>Higher invariants in homotopy theory — 37th Annual Meeting of the Irish Mathematical Society, Belfast</title>
+      <link>http://ims2024.martinmathieu.net/</link>
+      <description>Research talk, August 2024.</description>
+      <category>conference</category>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">3a7d4f61b829</guid>
+    </item>
+    <item>
+      <title>An obstruction theory for strictly commutative algebras in positive characteristic — preprint</title>
+      <link>https://arxiv.org/pdf/2404.16681</link>
+      <description>Preprint posted to arXiv, 25 April 2024. Defines cotriple products (higher cohomology operations for the Frobenius) and proves that E∞-algebras are weakly equivalent to commutative algebras iff higher Steenrod operations vanish coherently. Published in Algebraic and Geometric Topology (2026).</description>
+      <category>preprint</category>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">7d2c4f90b518</guid>
+    </item>
+    <item>
+      <title>Gröbner bases and automated theorem proving — PhD student seminar, Université Sorbonne Paris Nord</title>
+      <link>https://flynncoo.github.io/</link>
+      <description>Expository talk, April 2024.</description>
+      <category>conference</category>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">8b6c1d47e523</guid>
+    </item>
+    <item>
+      <title>Strictly commutative algebra in positive characteristic — Seminar of Algebra, Seville University</title>
+      <link>https://flynncoo.github.io/</link>
+      <description>Research talk, February 2024.</description>
+      <category>conference</category>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d5a8c3f70b96</guid>
+    </item>
+    <item>
+      <title>Strictly commutative algebra in positive characteristic — Topological Activities seminar, Stockholm University</title>
+      <link>https://www.kth.se/math/kalender/topactivities/oisin-flynn-connolly-strictly-commutative-dg-algebras-in-positive-characteristic-1.1308445</link>
+      <description>Research talk, 15 January 2024.</description>
+      <category>conference</category>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">0c9e7b52a418</guid>
+    </item>
+    <item>
+      <title>Simplicial coendomorphism operads and coalgebras — preprint</title>
+      <link>https://flynncoo.github.io/pdfs/papers/Simplicial_endomorphism_operads_and_coalgebras.pdf</link>
+      <description>Preprint. Uses Kan's Ex∞-functor to construct a coendomorphism operad internal to simplicial sets, and shows that simplicial n-fold suspensions are coalgebras up to coherent homotopy over the Barratt–Eccles En-operad.</description>
+      <category>preprint</category>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">b2f6e94d7308</guid>
+    </item>
+
+    <!-- 2023 -->
+    <item>
+      <title>The geometry of iterated suspensions — Séminaire Topologie, Université de Lille</title>
+      <link>https://math.univ-lille.fr/detail-event/default-59e18b4661</link>
+      <description>Research talk, 17 November 2023.</description>
+      <category>conference</category>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">7f3d2a84c019</guid>
+    </item>
+    <item>
+      <title>p-adic homotopy theory — seminar, Universidad de Málaga</title>
+      <link>https://flynncoo.github.io/</link>
+      <description>Research talk, November 2023.</description>
+      <category>conference</category>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">e6b4c1d93f27</guid>
+    </item>
+    <item>
+      <title>Three Schur functors related to pre-Lie algebras — published in MPCPS</title>
+      <link>https://www.cambridge.org/core/journals/mathematical-proceedings-of-the-cambridge-philosophical-society/article/abs/three-schur-functors-related-to-prelie-algebras/2A29183971A52031B1F4E2903342C995</link>
+      <description>Published online in Mathematical Proceedings of the Cambridge Philosophical Society, 16 October 2023 (print volume 2024). Gives explicit combinatorial descriptions of three Schur functors arising in the theory of pre-Lie algebras.</description>
+      <category>publication</category>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">5f2e9b14c708</guid>
+    </item>
+    <item>
+      <title>The geometry of iterated suspensions — Séminaire de l'équipe Topologie Algébrique, Université Sorbonne Paris Nord</title>
+      <link>https://flynncoo.github.io/</link>
+      <description>Research talk, October 2023.</description>
+      <category>conference</category>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2a5f8e71b304</guid>
+    </item>
+    <item>
+      <title>Corecognition for iterated suspensions — 36th Meeting of the Irish Mathematical Society (poster)</title>
+      <link>https://flynncoo.github.io/</link>
+      <description>Poster presentation, September 2023.</description>
+      <category>conference</category>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">b3c6d20e4f81</guid>
+    </item>
+    <item>
+      <title>Corecognition for iterated suspensions — Young Topologists Meeting, Lausanne (poster)</title>
+      <link>https://flynncoo.github.io/</link>
+      <description>Poster presentation, July 2023.</description>
+      <category>conference</category>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">5d9a1f46c723</guid>
+    </item>
+    <item>
+      <title>Higher order Massey products for algebras over algebraic operads — preprint</title>
+      <link>https://arxiv.org/pdf/2304.13411</link>
+      <description>Preprint posted to arXiv, 26 April 2023 (with José M. Moreno-Fernández). Introduces higher-order Massey products for algebras over algebraic operads, studies their connections to formality, and shows they represent differentials in the operadic Eilenberg–Moore spectral sequence.</description>
+      <category>preprint</category>
+      <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">1e4b7d92a065</guid>
+    </item>
+
+    <!-- 2022 -->
+    <item>
+      <title>Introduction to ∞-categories — PhD topology seminar, Université Sorbonne Paris Nord</title>
+      <link>https://flynncoo.github.io/</link>
+      <description>Expository talk, November 2022.</description>
+      <category>conference</category>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">9c3e5b18d640</guid>
+    </item>
+    <item>
+      <title>A recognition principle for iterated suspensions as coalgebras over the little cubes operad — preprint</title>
+      <link>https://arxiv.org/pdf/2210.00839</link>
+      <description>Preprint posted to arXiv, 3 October 2022 (with José M. Moreno-Fernández and Felix Wierstra). Proves a recognition principle for iterated suspensions as coalgebras over the little disks operads — the Eckmann–Hilton dual of May's foundational results on iterated loop spaces.</description>
+      <category>preprint</category>
+      <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">4f7a2c81b953</guid>
+    </item>
+
+    <!-- 2020 -->
+    <item>
+      <title>Master thesis defence: The homotopy theory of the little n-discs operad</title>
+      <link>https://flynncoo.github.io/pdfs/theses/master_thesis.pdf</link>
+      <description>Master thesis defended 17 July 2020, supervised by Felix Wierstra.</description>
+      <category>event</category>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">8d1b6f93c247</guid>
+    </item>
+    <item>
+      <title>Three Schur functors related to pre-Lie algebras — preprint</title>
+      <link>https://arxiv.org/pdf/2001.00780</link>
+      <description>Preprint posted to arXiv, 3 January 2020 (with Vladimir Dotsenko). Gives explicit combinatorial descriptions of three Schur functors in the theory of pre-Lie algebras. Published in Mathematical Proceedings of the Cambridge Philosophical Society (2023/2024).</description>
+      <category>preprint</category>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">3b8e4d07f521</guid>
+    </item>
+
   </channel>
 </rss>
