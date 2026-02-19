@@ -18,7 +18,7 @@ jobs:
           python-version: '3.12'
 
       - name: Generate now.xml
-        run: python3 generate_rss.py
+        run: python3 scripts/generate_rss.py
 
       - name: Commit updated RSS feed
         run: |

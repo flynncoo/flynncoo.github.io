@@ -4,7 +4,7 @@
 Workflow:
   1. Edit news.json (add/update items)
   2. Push to main — GitHub Action runs this script and commits now.xml
-  OR run locally: python3 generate_rss.py
+  OR run locally from repo root: python3 scripts/generate_rss.py
 """
 
 import hashlib
@@ -23,7 +23,7 @@ rss_items = []
 for item in items:
     dt = datetime.strptime(item["date"], "%Y-%m-%d")
     pub_date = dt.strftime("%a, %d %b %Y 00:00:00 +0000")
-    link = item.get("url") or f"{SITE_URL}/now_page.html"
+    link = item.get("url") or f"{SITE_URL}/now.html"
     # Stable GUID so RSS readers track items across updates
     guid_seed = item["date"] + "|" + item["title"]
     guid = hashlib.sha1(guid_seed.encode()).hexdigest()[:12]
@@ -44,7 +44,7 @@ rss = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oisín Flynn-Connolly — Now</title>
-    <link>{SITE_URL}/now_page.html</link>
+    <link>{SITE_URL}/now.html</link>
     <description>Recent articles, talks, and events from Oisín Flynn-Connolly.</description>
     <language>en</language>
     <lastBuildDate>{build_date}</lastBuildDate>
