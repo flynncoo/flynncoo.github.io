@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+	<head>
+		<title>Blog | Oisín Flynn-Connolly</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+		<!-- MathJax for LaTeX rendering -->
+		<script>
+			window.MathJax = {
+				tex: {
+					inlineMath: [['$', '$']],
+					displayMath: [['$$', '$$']]
+				},
+				options: {
+					skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+				}
+			};
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+		<!-- marked.js for Markdown rendering -->
+		<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+	</head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-9X3KFNKSCT"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-9X3KFNKSCT');
+	</script>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="../index.html" class="title">Oisín Flynn-Connolly</a>
+				<nav>
+					<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="../about.html">About me</a></li>
+						<li><a href="../now.html">Now</a></li>
+						<li><a href="../misc.html">Miscellaneous</a></li>
+						<li><a href="index.html">Blog</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<div id="post-content">
+								<p>Loading...</p>
+							</div>
+							<hr />
+							<p><a href="index.html">← Back to blog</a></p>
+
+							<!-- Comments (Giscus) -->
+							<div id="comments" style="margin-top: 3em;">
+								<script src="https://giscus.app/client.js"
+									data-repo="flynncoo/flynncoo.github.io"
+									data-repo-id="R_kgDOMH48vg"
+									data-category="General"
+									data-category-id="DIC_kwDOMH48vs4C24M5"
+									data-mapping="url"
+									data-strict="0"
+									data-reactions-enabled="1"
+									data-emit-metadata="0"
+									data-input-position="bottom"
+									data-theme="preferred_color_scheme"
+									data-lang="en"
+									crossorigin="anonymous"
+									async>
+								</script>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Oisín Flynn-Connolly. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+			<script>
+				(function() {
+					var params = new URLSearchParams(window.location.search);
+					var post = params.get('post');
+					var contentEl = document.getElementById('post-content');
+
+					if (!post) {
+						contentEl.innerHTML = '<p>No post specified. <a href="index.html">Back to blog.</a></p>';
+						return;
+					}
+
+					// Only allow safe filenames: letters, numbers, hyphens, underscores
+					if (!/^[a-zA-Z0-9_-]+$/.test(post)) {
+						contentEl.innerHTML = '<p>Invalid post name.</p>';
+						return;
+					}
+
+					fetch('posts/' + post + '.md')
+						.then(function(r) {
+							if (!r.ok) throw new Error('Not found');
+							return r.text();
+						})
+						.then(function(md) {
+							// Protect math expressions before marked processes them,
+							// so marked doesn't escape $ signs or mangle LaTeX.
+							var mathBlocks = [];
+
+							md = md.replace(/\$\$[\s\S]*?\$\$/g, function(match) {
+								var id = 'MATHPLACEHOLDER' + mathBlocks.length + 'END';
+								mathBlocks.push(match);
+								return id;
+							});
+
+							md = md.replace(/\$[^\$\n]+?\$/g, function(match) {
+								var id = 'MATHPLACEHOLDER' + mathBlocks.length + 'END';
+								mathBlocks.push(match);
+								return id;
+							});
+
+							var html = marked.parse(md);
+
+							// Restore math expressions
+							mathBlocks.forEach(function(math, i) {
+								html = html.split('MATHPLACEHOLDER' + i + 'END').join(math);
+							});
+
+							contentEl.innerHTML = html;
+
+							// Set page title from the first h1
+							var h1 = contentEl.querySelector('h1');
+							if (h1) {
+								document.title = h1.textContent + ' | Oisín Flynn-Connolly';
+								h1.className = 'major';
+							}
+
+							// Typeset math with MathJax
+							if (window.MathJax && MathJax.typesetPromise) {
+								MathJax.typesetPromise([contentEl]);
+							}
+						})
+						.catch(function() {
+							contentEl.innerHTML = '<p>Post not found. <a href="index.html">Back to blog.</a></p>';
+						});
+				})();
+			</script>
+
+	</body>
+</html>

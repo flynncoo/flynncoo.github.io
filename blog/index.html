@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+	<head>
+		<title>Blog | Oisín Flynn-Connolly</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-9X3KFNKSCT"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-9X3KFNKSCT');
+	</script>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="../index.html" class="title">Oisín Flynn-Connolly</a>
+				<nav>
+					<ul>
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="../about.html">About me</a></li>
+						<li><a href="../now.html">Now</a></li>
+						<li><a href="../misc.html">Miscellaneous</a></li>
+						<li><a href="index.html" class="active">Blog</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Blog</h1>
+							<div id="post-list">
+								<p>Loading posts...</p>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Oisín Flynn-Connolly. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+			<script>
+				fetch('posts.json')
+					.then(function(r) { return r.json(); })
+					.then(function(posts) {
+						posts.sort(function(a, b) { return b.date.localeCompare(a.date); });
+						if (posts.length === 0) {
+							document.getElementById('post-list').innerHTML = '<p>No posts yet.</p>';
+							return;
+						}
+						var html = '<ul class="alt">';
+						posts.forEach(function(post) {
+							var dt = new Date(post.date + 'T00:00:00');
+							var dateStr = dt.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+							var slug = post.file.replace(/\.md$/, '');
+							html += '<li>'
+								+ '<strong><a href="post.html?post=' + slug + '">' + post.title + '</a></strong>'
+								+ '<br><small>' + dateStr + '</small>'
+								+ (post.description ? '<br>' + post.description : '')
+								+ '</li>';
+						});
+						html += '</ul>';
+						document.getElementById('post-list').innerHTML = html;
+					})
+					.catch(function() {
+						document.getElementById('post-list').innerHTML = '<p>Could not load posts.</p>';
+					});
+			</script>
+
+	</body>
+</html>

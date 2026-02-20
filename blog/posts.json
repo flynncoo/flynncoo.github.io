@@ -1,0 +1,14 @@
+[
+  {
+    "title": "First post",
+    "date": "2026-02-20",
+    "file": "first-post.md",
+    "description": "An introductory post."
+  },
+  {
+    "title": "Maths in France: An Irish perspective",
+    "date": "2020-09-01",
+    "file": "maths-in-france.md",
+    "description": "A guide to maths master degrees in France, aimed at Irish undergrad students."
+  }
+]
