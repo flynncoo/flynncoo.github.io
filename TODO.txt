@@ -11,9 +11,7 @@ Website TODOs
    this should point to blog/post.html?post=maths-in-france instead.
    master_advice.html can then be deleted.
 
-4. No favicon. The browser tab shows a blank icon. Add a favicon.ico (or SVG)
-   to the repo root and link it from the <head> of each page:
-     <link rel="icon" href="/favicon.ico" />
+4. DONE — favicon.svg added to repo root and linked from all main pages.
 
 5. Blog not linked from the main site nav yet (intentional for now).
    When ready, add it to the nav on all pages alongside Home / About me / Now /
