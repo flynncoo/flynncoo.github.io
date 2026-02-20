@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oisín Flynn-Connolly — Blog</title>
+    <link>https://flynncoo.github.io/blog/</link>
+    <description>Blog posts by Oisín Flynn-Connolly on mathematics, theoretical computer science, and academic life.</description>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Feb 2026 20:45:49 +0000</lastBuildDate>
+    <atom:link href="https://flynncoo.github.io/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First post</title>
+      <link>https://flynncoo.github.io/blog/post.html?post=first-post</link>
+      <description>An introductory post.</description>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">94783f501166</guid>
+    </item>
+    <item>
+      <title>Maths in France: An Irish perspective</title>
+      <link>https://flynncoo.github.io/blog/post.html?post=maths-in-france</link>
+      <description>A guide to maths master degrees in France, aimed at Irish undergrad students.</description>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">b41a1373bfc0</guid>
+    </item>
+  </channel>
+</rss>

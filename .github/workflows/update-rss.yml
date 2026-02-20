@@ -1,9 +1,11 @@
-name: Update RSS feed
+name: Update RSS feeds
 
 on:
   push:
     branches: [main]
-    paths: [news.json]
+    paths:
+      - news.json
+      - blog/posts.json
 
 jobs:
   build-rss:
@@ -20,10 +22,13 @@ jobs:
       - name: Generate now.xml
         run: python3 scripts/generate_rss.py
 
-      - name: Commit updated RSS feed
+      - name: Generate blog/feed.xml
+        run: python3 scripts/generate_blog_rss.py
+
+      - name: Commit updated RSS feeds
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add now.xml
-          git diff --cached --quiet || git commit -m "Auto-update now.xml from news.json"
+          git add now.xml blog/feed.xml
+          git diff --cached --quiet || git commit -m "Auto-update RSS feeds"
           git push

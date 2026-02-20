@@ -1,0 +1,20 @@
+Website TODOs
+=============
+
+1. activities.html is not in the top nav (Home / About me / Now / Miscellaneous).
+   It is only reachable via a small link at the bottom of the Talks section on the
+   home page. Either add it to the nav on all pages, or fold its content into About.
+
+2. The link in misc.html still points to master_advice.html:
+     <a href="master_advice.html">Here</a>
+   Now that the content lives as a blog post (blog/posts/maths-in-france.md),
+   this should point to blog/post.html?post=maths-in-france instead.
+   master_advice.html can then be deleted.
+
+4. No favicon. The browser tab shows a blank icon. Add a favicon.ico (or SVG)
+   to the repo root and link it from the <head> of each page:
+     <link rel="icon" href="/favicon.ico" />
+
+5. Blog not linked from the main site nav yet (intentional for now).
+   When ready, add it to the nav on all pages alongside Home / About me / Now /
+   Miscellaneous, and update blog/index.html and blog/post.html accordingly.
