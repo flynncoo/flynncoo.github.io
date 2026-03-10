@@ -5,7 +5,7 @@
     <link>https://flynncoo.github.io/now.html</link>
     <description>Recent articles, talks, and events from Oisín Flynn-Connolly.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Feb 2026 22:30:40 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 05:35:31 +0000</lastBuildDate>
     <atom:link href="https://flynncoo.github.io/now.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An obstruction theory for strictly commutative algebras in positive characteristic — published in AGT</title>
@@ -17,7 +17,7 @@
     </item>
     <item>
       <title>Central limits via dilated categories — preprint</title>
-      <link>https://flynncoo.github.io/now.html</link>
+      <link>https://arxiv.org/abs/2603.08266</link>
       <description>New preprint with Henning Basold, Chase Ford and Hao Wang. Introduces dilated seminorm-enriched category theory as a unifying framework for central limits, with applications to the classical CLT and a novel CLT for symplectic manifolds.</description>
       <category>article</category>
       <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
