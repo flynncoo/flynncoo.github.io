@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+	<head>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-9X3KFNKSCT"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-9X3KFNKSCT');
+		</script>
+		<title>Now | Oisín Flynn-Connolly</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="What Oisín Flynn-Connolly is focused on right now." />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="canonical" href="https://flynncoo.github.io/now.html" />
+		<link rel="alternate" type="application/rss+xml" title="Oisín Flynn-Connolly — Now Feed" href="https://flynncoo.github.io/now.xml" />
+		<meta property="og:title" content="Now | Oisín Flynn-Connolly" />
+		<meta property="og:description" content="What Oisín Flynn-Connolly is focused on right now." />
+		<meta property="og:url" content="https://flynncoo.github.io/now.html" />
+		<meta property="og:type" content="website" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Timeline feed */
+			.timeline {
+				position: relative;
+				padding-left: 2em;
+				margin-top: 1.5em;
+			}
+			.timeline::before {
+				content: '';
+				position: absolute;
+				left: 0.45em;
+				top: 0.4em;
+				bottom: 0;
+				width: 2px;
+				background: rgba(255, 255, 255, 0.15);
+			}
+			.timeline-item {
+				position: relative;
+				padding-bottom: 2em;
+			}
+			.timeline-item:last-child {
+				padding-bottom: 0;
+			}
+			.timeline-dot {
+				position: absolute;
+				left: -1.75em;
+				top: 0.35em;
+				width: 12px;
+				height: 12px;
+				border-radius: 50%;
+				border: 2px solid;
+			}
+			.timeline-dot.dot-article {
+				border-color: #6ab4ff;
+				background: rgba(100, 180, 255, 0.3);
+			}
+			.timeline-dot.dot-conference {
+				border-color: #ffb464;
+				background: rgba(255, 180, 100, 0.3);
+			}
+			.timeline-dot.dot-event {
+				border-color: #b48eff;
+				background: rgba(180, 142, 255, 0.3);
+			}
+			.timeline-date {
+				font-size: 0.8em;
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
+				color: rgba(255, 255, 255, 0.4);
+				margin-bottom: 0.3em;
+			}
+			.timeline-title {
+				font-size: 1.05em;
+				font-weight: 600;
+				margin-bottom: 0.3em;
+				line-height: 1.4;
+			}
+			.timeline-title a {
+				border-bottom: 1px dotted rgba(255, 255, 255, 0.35);
+			}
+			.timeline-title a:hover {
+				border-bottom-style: solid;
+			}
+			.timeline-desc {
+				font-size: 0.9em;
+				color: rgba(255, 255, 255, 0.6);
+				line-height: 1.5;
+			}
+			.timeline-badge {
+				display: inline-block;
+				font-size: 0.65em;
+				font-weight: 700;
+				padding: 0.2em 0.6em;
+				border-radius: 3px;
+				text-transform: uppercase;
+				letter-spacing: 0.08em;
+				vertical-align: middle;
+				margin-left: 0.6em;
+				position: relative;
+				top: -0.1em;
+			}
+			.badge-article    { background: rgba(100, 180, 255, 0.15); color: #6ab4ff; }
+			.badge-conference { background: rgba(255, 180, 100, 0.15); color: #ffb464; }
+			.badge-event      { background: rgba(180, 142, 255, 0.15); color: #b48eff; }
+
+			/* Filter buttons */
+			.feed-filters {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.5em;
+				margin-bottom: 1.5em;
+				align-items: center;
+			}
+			.feed-filters span {
+				font-size: 0.85em;
+				color: rgba(255, 255, 255, 0.5);
+				margin-right: 0.3em;
+			}
+			.filter-btn {
+				font-size: 0.8em;
+				padding: 0.35em 0.9em;
+				border-radius: 2em;
+				border: 1px solid rgba(255, 255, 255, 0.2);
+				background: transparent;
+				color: rgba(255, 255, 255, 0.6);
+				cursor: pointer;
+				transition: all 0.2s ease;
+				font-family: inherit;
+			}
+			.filter-btn:hover {
+				border-color: rgba(255, 255, 255, 0.4);
+				color: rgba(255, 255, 255, 0.9);
+			}
+			.filter-btn.active {
+				background: rgba(255, 255, 255, 0.1);
+				border-color: rgba(255, 255, 255, 0.4);
+				color: #fff;
+			}
+
+			/* RSS link */
+			.rss-link {
+				font-size: 0.85em;
+				margin-left: auto;
+			}
+			.rss-link a {
+				color: rgba(255, 255, 255, 0.5);
+				border-bottom: none !important;
+			}
+			.rss-link a:hover {
+				color: #ffb464;
+			}
+			.rss-link .fa-rss {
+				margin-right: 0.3em;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Oisín Flynn-Connolly</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About me</a></li>
+						<li><a href="misc.html">Miscellaneous</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Big Picture -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">Now</h1>
+
+
+							<h2>Recent Activity</h2>
+
+							<div class="feed-filters">
+								<span>Show:</span>
+								<button class="filter-btn active" data-filter="all">All</button>
+								<button class="filter-btn" data-filter="article">Articles</button>
+								<button class="filter-btn" data-filter="conference">Talks</button>
+								<button class="filter-btn" data-filter="event">Events</button>
+								<span class="rss-link"><a href="now.xml"><i class="fas fa-rss"></i>RSS</a></span>
+							</div>
+
+							<div id="feed-timeline" class="timeline"></div>
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Oisín Flynn-Connolly. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		
+
+	</body>
+</html>
