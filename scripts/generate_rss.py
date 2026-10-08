@@ -26,7 +26,7 @@ for item in items:
     link = item.get("url") or f"{SITE_URL}/now.html"
     # Stable GUID so RSS readers track items across updates
     guid_seed = item["date"] + "|" + item["title"]
-    guid = hashlib.sha1(guid_seed.encode()).hexdigest()[:12]
+    guid = item.get("guid") or hashlib.sha1(guid_seed.encode()).hexdigest()[:12]
     rss_items.append(
         f"    <item>\n"
         f"      <title>{escape(item['title'])}</title>\n"
