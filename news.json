@@ -8,7 +8,7 @@
     "guid": "8fee80f7593e"
   },
   {
-    "type": "conference",
+    "type": "attendance",
     "date": "2026-10-05",
     "title": "A week on reliable software in Leiden",
     "description": "I am at the Lorentz Center for Reliable Software by Construction, a workshop running from 5 to 9 October 2026.",
@@ -32,7 +32,7 @@
     "guid": "1db8944fc9a5"
   },
   {
-    "type": "conference",
+    "type": "event",
     "date": "2026-07-01",
     "title": "I am on the FICS 2027 program committee",
     "description": "I am serving on the program committee for the 14th International Workshop on Fixed Points in Computer Science, held in Brighton on 25–26 January 2027.",

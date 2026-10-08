@@ -18,12 +18,12 @@
 		-->
 		<title>News | Oisín Flynn-Connolly</title>
 		<meta charset="utf-8" />
-		<meta name="description" content="Recent articles, talks, and events from Oisín Flynn-Connolly." />
+		<meta name="description" content="Recent articles, talks, conferences, and events from Oisín Flynn-Connolly." />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="canonical" href="https://flynncoo.github.io/now.html" />
 		<link rel="alternate" type="application/rss+xml" title="Oisín Flynn-Connolly — News Feed" href="https://flynncoo.github.io/now.xml" />
 		<meta property="og:title" content="News | Oisín Flynn-Connolly" />
-		<meta property="og:description" content="Recent articles, talks, and events from Oisín Flynn-Connolly." />
+		<meta property="og:description" content="Recent articles, talks, conferences, and events from Oisín Flynn-Connolly." />
 		<meta property="og:url" content="https://flynncoo.github.io/now.html" />
 		<meta property="og:type" content="website" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -68,6 +68,10 @@
 				border-color: #ffb464;
 				background: rgba(255, 180, 100, 0.3);
 			}
+			.timeline-dot.dot-attendance {
+				border-color: #83d3c7;
+				background: rgba(131, 211, 199, 0.3);
+			}
 			.timeline-dot.dot-event {
 				border-color: #b48eff;
 				background: rgba(180, 142, 255, 0.3);
@@ -111,6 +115,7 @@
 			}
 			.badge-article    { background: rgba(100, 180, 255, 0.15); color: #6ab4ff; }
 			.badge-conference { background: rgba(255, 180, 100, 0.15); color: #ffb464; }
+			.badge-attendance { background: rgba(131, 211, 199, 0.15); color: #83d3c7; }
 			.badge-event      { background: rgba(180, 142, 255, 0.15); color: #b48eff; }
 
 			/* Filter buttons */
@@ -186,13 +191,14 @@
 					<section id="main" class="wrapper">
 						<div class="inner">
 							<h1 class="major">News</h1>
-							<p>Recent articles, talks, and events.</p>
+							<p>Recent articles, talks, conferences, and events.</p>
 
 							<div class="feed-filters">
 								<span>Show:</span>
 								<button class="filter-btn active" data-filter="all">All</button>
 								<button class="filter-btn" data-filter="article">Articles</button>
 								<button class="filter-btn" data-filter="conference">Talks</button>
+								<button class="filter-btn" data-filter="attendance">Conferences attended</button>
 								<button class="filter-btn" data-filter="event">Events</button>
 								<span class="rss-link"><a href="now.xml"><i class="fas fa-rss"></i>RSS</a></span>
 							</div>
@@ -226,6 +232,7 @@
 					var typeLabels = {
 						article:    'Article',
 						conference: 'Talk',
+						attendance: 'Conference',
 						event:      'Event'
 					};
 

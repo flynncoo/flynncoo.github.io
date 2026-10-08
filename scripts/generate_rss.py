@@ -45,7 +45,7 @@ rss = f"""<?xml version="1.0" encoding="UTF-8"?>
   <channel>
     <title>Oisín Flynn-Connolly — News</title>
     <link>{SITE_URL}/now.html</link>
-    <description>Recent articles, talks, and events from Oisín Flynn-Connolly.</description>
+    <description>Recent articles, talks, conferences, and events from Oisín Flynn-Connolly.</description>
     <language>en</language>
     <lastBuildDate>{build_date}</lastBuildDate>
     <atom:link href="{SITE_URL}/now.xml" rel="self" type="application/rss+xml" />

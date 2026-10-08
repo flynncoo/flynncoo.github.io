@@ -3,9 +3,9 @@
   <channel>
     <title>Oisín Flynn-Connolly — News</title>
     <link>https://flynncoo.github.io/now.html</link>
-    <description>Recent articles, talks, and events from Oisín Flynn-Connolly.</description>
+    <description>Recent articles, talks, conferences, and events from Oisín Flynn-Connolly.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 20:42:59 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 20:55:01 +0000</lastBuildDate>
     <atom:link href="https://flynncoo.github.io/now.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Our Massey products paper has been accepted</title>
@@ -19,7 +19,7 @@
       <title>A week on reliable software in Leiden</title>
       <link>https://www.lorentzcenter.nl/reliable-software-by-construction.html</link>
       <description>I am at the Lorentz Center for Reliable Software by Construction, a workshop running from 5 to 9 October 2026.</description>
-      <category>conference</category>
+      <category>attendance</category>
       <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">2e413c018146</guid>
     </item>
@@ -43,7 +43,7 @@
       <title>I am on the FICS 2027 program committee</title>
       <link>https://fics2027.codeberg.page/</link>
       <description>I am serving on the program committee for the 14th International Workshop on Fixed Points in Computer Science, held in Brighton on 25–26 January 2027.</description>
-      <category>conference</category>
+      <category>event</category>
       <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f7c31a482d0e</guid>
     </item>
