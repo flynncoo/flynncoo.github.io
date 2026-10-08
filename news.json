@@ -22,17 +22,59 @@
   },
   {
     "type": "article",
+    "date": "2026-07-24",
+    "title": "On a conjecture of Dotsenko on weak nilpotence and the Engel identity — preprint",
+    "description": "Preprint on weak nilpotence and Engel identities in commutative nonassociative algebras.",
+    "url": ""
+  },
+  {
+    "type": "conference",
+    "date": "2026-07-06",
+    "title": "Integral arithmetic means of the first Fibonacci numbers — Fibonacci conference",
+    "description": "Contributed talk at the 22nd International Conference on Fibonacci Numbers and Their Applications, Istanbul, 6–10 July 2026.",
+    "url": "https://math.gsu.edu.tr/fibo22/"
+  },
+  {
+    "type": "conference",
+    "date": "2026-06-03",
+    "title": "Combinatorial obstructions to quasi-isomorphism — HHAT III",
+    "description": "Invited talk at Higher Homotopy Algebras in Topology III, Seville, 3–5 June 2026, surveying Massey products and related obstructions.",
+    "url": "https://sites.google.com/view/hhat3"
+  },
+  {
+    "type": "article",
+    "date": "2026-05-20",
+    "title": "Simplicial coendomorphism operads and coalgebras — published in Bulletin of the Australian Mathematical Society",
+    "description": "Published online in the Bulletin of the Australian Mathematical Society on 20 May 2026. Constructs coendomorphism operads in simplicial sets and shows that finite simplicial suspensions admit coherent coalgebra structures.",
+    "url": "https://doi.org/10.1017/S0004972726101294"
+  },
+  {
+    "type": "article",
+    "date": "2026-04-10",
+    "title": "Enriched coalgebras are sometimes comonadic — preprint",
+    "description": "New preprint introducing enriched coalgebras over operads and conditions under which an associated endofunctor is a comonad.",
+    "url": "https://arxiv.org/abs/2604.09354"
+  },
+  {
+    "type": "conference",
+    "date": "2026-03-28",
+    "title": "Central limits via dilated categories — PSSL 112",
+    "description": "Contributed talk at the 112th Peripatetic Seminar on Sheaves and Logic, University of Nottingham, 28–29 March 2026.",
+    "url": "https://sites.google.com/view/pssl112/program"
+  },
+  {
+    "type": "article",
+    "date": "2026-03-09",
+    "title": "Central limits via dilated categories — preprint",
+    "description": "New preprint with Henning Basold, Chase Ford and Hao Wang. Introduces dilated seminorm-enriched category theory as a unifying framework for central limits, with applications to the classical CLT and a novel CLT for symplectic manifolds.",
+    "url": "https://arxiv.org/abs/2603.08266"
+  },
+  {
+    "type": "article",
     "date": "2026-02-11",
     "title": "An obstruction theory for strictly commutative algebras in positive characteristic — published in AGT",
     "description": "Published in Algebraic and Geometric Topology, 11 February 2026. Defines cotriple products and shows E∞-algebras are weakly equivalent to commutative algebras iff higher Steenrod operations vanish coherently.",
     "url": "https://msp.org/agt/2026/26-2/p12.xhtml"
-  },
-  {
-    "type": "article",
-    "date": "2026-02-01",
-    "title": "Central limits via dilated categories — preprint",
-    "description": "New preprint with Henning Basold, Chase Ford and Hao Wang. Introduces dilated seminorm-enriched category theory as a unifying framework for central limits, with applications to the classical CLT and a novel CLT for symplectic manifolds.",
-    "url": "https://arxiv.org/abs/2603.08266"
   },
   {
     "type": "article",
@@ -63,18 +105,18 @@
     "url": ""
   },
   {
-    "type": "conference",
-    "date": "2025-04-01",
-    "title": "Homotopy Probability Theory I & II — STyLo seminar, Leiden University",
-    "description": "Three expository talks on homotopy probability theory, March–April 2025, STyLo probability seminar, Leiden University.",
-    "url": "https://stylo.liacs.nl/seminar/"
-  },
-  {
     "type": "article",
     "date": "2025-04-14",
     "title": "On the divisibility of sums of Fibonacci numbers — preprint",
     "description": "Preprint posted to arXiv, 14 April 2025. Shows that for infinitely many odd integers n, the sum of the first n Fibonacci numbers is divisible by n. Published in Integers (2025).",
     "url": "https://arxiv.org/abs/2504.09938"
+  },
+  {
+    "type": "conference",
+    "date": "2025-04-01",
+    "title": "Homotopy Probability Theory I & II — STyLo seminar, Leiden University",
+    "description": "Three expository talks on homotopy probability theory, March–April 2025, STyLo probability seminar, Leiden University.",
+    "url": "https://stylo.liacs.nl/seminar/"
   },
   {
     "type": "conference",

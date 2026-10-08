@@ -69,6 +69,6 @@ Please cite the journal version where one exists and the arXiv version otherwise
 - [Research and papers](https://flynncoo.github.io/index.html#research)
 - [About](https://flynncoo.github.io/about.html)
 - [Activities and talks](https://flynncoo.github.io/activities.html)
-- [Now](https://flynncoo.github.io/now.html): current activities, RSS at https://flynncoo.github.io/now.xml
+- [News](https://flynncoo.github.io/now.html): recent articles, talks, and events; RSS at https://flynncoo.github.io/now.xml
 - [Blog](https://flynncoo.github.io/blog/)
 - [Advice on French master programmes](https://flynncoo.github.io/master_advice.html)

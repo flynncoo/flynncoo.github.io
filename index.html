@@ -72,6 +72,15 @@
 		</script>
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+<style>
+  .news-preview time {
+    display: block;
+    font-size: 0.8em;
+    letter-spacing: 0.08em;
+    opacity: 0.65;
+    text-transform: uppercase;
+  }
+</style>
 <script>
   function ToggleVisibility(divId) {
     var x = document.getElementById(divId);
@@ -91,6 +100,7 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#news">News</a></li>
 							<li><a href="#research">Research</a></li>
 							<li><a href="#theses">Theses</a></li>
 							<li><a href="#talks">Talks and notes</a></li>
@@ -122,6 +132,19 @@
 <ul class="actions">
 									</ul>
 
+						</div>
+					</section>
+
+				<!-- News -->
+					<section id="news" class="wrapper style1-alt fade-up">
+						<div class="inner">
+							<h2>News</h2>
+							<ul id="latest-news" class="alt news-preview" aria-live="polite">
+								<li>Loading latest updates…</li>
+							</ul>
+							<ul class="actions">
+								<li><a href="now.html" class="button">All news</a></li>
+							</ul>
 						</div>
 					</section>
 
@@ -351,6 +374,37 @@ many primes, the p-adic de Rham forms on X are also formal.</i></p>
 			<script>
 				document.getElementById('last-updated').textContent =
 					new Date(document.lastModified).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+			</script>
+			<script>
+				(function() {
+					var list = document.getElementById('latest-news');
+					fetch('news.json')
+						.then(function(response) {
+							if (!response.ok) throw new Error('Could not load news');
+							return response.json();
+						})
+						.then(function(items) {
+							items.sort(function(a, b) { return b.date.localeCompare(a.date); });
+							list.textContent = '';
+							items.slice(0, 3).forEach(function(item) {
+								var entry = document.createElement('li');
+								var date = document.createElement('time');
+								date.dateTime = item.date;
+								date.textContent = new Date(item.date + 'T00:00:00').toLocaleDateString('en-GB', {
+									day: 'numeric', month: 'long', year: 'numeric'
+								});
+								entry.appendChild(date);
+								var title = document.createElement(item.url ? 'a' : 'span');
+								if (item.url) title.href = item.url;
+								title.textContent = item.title;
+								entry.appendChild(title);
+								list.appendChild(entry);
+							});
+						})
+						.catch(function() {
+							list.textContent = 'Latest updates are temporarily unavailable.';
+						});
+				})();
 			</script>
 
 	</body>

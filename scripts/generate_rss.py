@@ -43,7 +43,7 @@ build_date = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
 rss = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Oisín Flynn-Connolly — Now</title>
+    <title>Oisín Flynn-Connolly — News</title>
     <link>{SITE_URL}/now.html</link>
     <description>Recent articles, talks, and events from Oisín Flynn-Connolly.</description>
     <language>en</language>

@@ -1,12 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Oisín Flynn-Connolly — Now</title>
+    <title>Oisín Flynn-Connolly — News</title>
     <link>https://flynncoo.github.io/now.html</link>
     <description>Recent articles, talks, and events from Oisín Flynn-Connolly.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Mar 2026 05:36:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 20:07:07 +0000</lastBuildDate>
     <atom:link href="https://flynncoo.github.io/now.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Higher order Massey products for algebras over algebraic operads — accepted by Mathematische Zeitschrift</title>
+      <link>https://arxiv.org/abs/2304.13411</link>
+      <description>Accepted for publication in Mathematische Zeitschrift. Joint work with José M. Moreno-Fernández on higher-order Massey products for algebras over operads and their relation to the operadic Eilenberg–Moore spectral sequence.</description>
+      <category>article</category>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">8fee80f7593e</guid>
+    </item>
+    <item>
+      <title>Program committee — FICS 2027</title>
+      <link>https://fics2027.codeberg.page/</link>
+      <description>Serving on the program committee of the 14th International Workshop on Fixed Points in Computer Science, 25–26 January 2027 in Brighton, UK.</description>
+      <category>conference</category>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">f7c31a482d0e</guid>
+    </item>
+    <item>
+      <title>Reliable Software by Construction — Lorentz Center</title>
+      <link>https://www.lorentzcenter.nl/reliable-software-by-construction.html</link>
+      <description>Attending the Reliable Software by Construction workshop at the Lorentz Center in Leiden, 5–9 October 2026.</description>
+      <category>conference</category>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2e413c018146</guid>
+    </item>
+    <item>
+      <title>On a conjecture of Dotsenko on weak nilpotence and the Engel identity — preprint</title>
+      <link>https://flynncoo.github.io/now.html</link>
+      <description>Preprint on weak nilpotence and Engel identities in commutative nonassociative algebras.</description>
+      <category>article</category>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">28f5aefb73be</guid>
+    </item>
+    <item>
+      <title>Integral arithmetic means of the first Fibonacci numbers — Fibonacci conference</title>
+      <link>https://math.gsu.edu.tr/fibo22/</link>
+      <description>Contributed talk at the 22nd International Conference on Fibonacci Numbers and Their Applications, Istanbul, 6–10 July 2026.</description>
+      <category>conference</category>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">1db8944fc9a5</guid>
+    </item>
+    <item>
+      <title>Combinatorial obstructions to quasi-isomorphism — HHAT III</title>
+      <link>https://sites.google.com/view/hhat3</link>
+      <description>Invited talk at Higher Homotopy Algebras in Topology III, Seville, 3–5 June 2026, surveying Massey products and related obstructions.</description>
+      <category>conference</category>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">e34dbfd9d5b4</guid>
+    </item>
+    <item>
+      <title>Simplicial coendomorphism operads and coalgebras — published in Bulletin of the Australian Mathematical Society</title>
+      <link>https://doi.org/10.1017/S0004972726101294</link>
+      <description>Published online in the Bulletin of the Australian Mathematical Society on 20 May 2026. Constructs coendomorphism operads in simplicial sets and shows that finite simplicial suspensions admit coherent coalgebra structures.</description>
+      <category>article</category>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">371f80fbad7f</guid>
+    </item>
+    <item>
+      <title>Enriched coalgebras are sometimes comonadic — preprint</title>
+      <link>https://arxiv.org/abs/2604.09354</link>
+      <description>New preprint introducing enriched coalgebras over operads and conditions under which an associated endofunctor is a comonad.</description>
+      <category>article</category>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">9c02bcc37abf</guid>
+    </item>
+    <item>
+      <title>Central limits via dilated categories — PSSL 112</title>
+      <link>https://sites.google.com/view/pssl112/program</link>
+      <description>Contributed talk at the 112th Peripatetic Seminar on Sheaves and Logic, University of Nottingham, 28–29 March 2026.</description>
+      <category>conference</category>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">9e44bf96bc27</guid>
+    </item>
+    <item>
+      <title>Central limits via dilated categories — preprint</title>
+      <link>https://arxiv.org/abs/2603.08266</link>
+      <description>New preprint with Henning Basold, Chase Ford and Hao Wang. Introduces dilated seminorm-enriched category theory as a unifying framework for central limits, with applications to the classical CLT and a novel CLT for symplectic manifolds.</description>
+      <category>article</category>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">56164d20e39a</guid>
+    </item>
     <item>
       <title>An obstruction theory for strictly commutative algebras in positive characteristic — published in AGT</title>
       <link>https://msp.org/agt/2026/26-2/p12.xhtml</link>
@@ -14,14 +94,6 @@
       <category>article</category>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">bd2ea3359fcc</guid>
-    </item>
-    <item>
-      <title>Central limits via dilated categories — preprint</title>
-      <link>https://arxiv.org/abs/2603.08266</link>
-      <description>New preprint with Henning Basold, Chase Ford and Hao Wang. Introduces dilated seminorm-enriched category theory as a unifying framework for central limits, with applications to the classical CLT and a novel CLT for symplectic manifolds.</description>
-      <category>article</category>
-      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">ea66f084fbeb</guid>
     </item>
     <item>
       <title>On associative and commutative differential graded algebras in positive characteristic</title>
