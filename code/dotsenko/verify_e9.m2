@@ -1,3 +1,4 @@
+-- Note from Oisín: This verification code was generated with Claude Code using the Opus 4.8 model.
 -- Self-contained Macaulay2 verifier:  t_4(u1..u4) certificate for e_9(x,y).
 -- Run:  M2 --script verify_e9.m2
 isLeaf = t -> not instance(t, List);

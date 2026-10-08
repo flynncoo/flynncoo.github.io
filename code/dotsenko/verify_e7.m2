@@ -1,3 +1,4 @@
+-- Note from Oisín: This verification code was generated with Claude Code using the Opus 4.8 model.
 -- Macaulay2 verifier.  Run:  M2 --script verify_e7.m2
 n = 17;
 zeroV = toList(n:0/1);
