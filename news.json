@@ -1,6 +1,27 @@
 [
   {
     "type": "article",
+    "date": "2026-10-08",
+    "title": "Higher order Massey products for algebras over algebraic operads — accepted by Mathematische Zeitschrift",
+    "description": "Accepted for publication in Mathematische Zeitschrift. Joint work with José M. Moreno-Fernández on higher-order Massey products for algebras over operads and their relation to the operadic Eilenberg–Moore spectral sequence.",
+    "url": "https://arxiv.org/abs/2304.13411"
+  },
+  {
+    "type": "conference",
+    "date": "2026-10-08",
+    "title": "Program committee — FICS 2027",
+    "description": "Serving on the program committee of the 14th International Workshop on Fixed Points in Computer Science, 25–26 January 2027 in Brighton, UK.",
+    "url": "https://fics2027.codeberg.page/"
+  },
+  {
+    "type": "conference",
+    "date": "2026-10-05",
+    "title": "Reliable Software by Construction — Lorentz Center",
+    "description": "Attending the Reliable Software by Construction workshop at the Lorentz Center in Leiden, 5–9 October 2026.",
+    "url": "https://www.lorentzcenter.nl/reliable-software-by-construction.html"
+  },
+  {
+    "type": "article",
     "date": "2026-02-11",
     "title": "An obstruction theory for strictly commutative algebras in positive characteristic — published in AGT",
     "description": "Published in Algebraic and Geometric Topology, 11 February 2026. Defines cotriple products and shows E∞-algebras are weakly equivalent to commutative algebras iff higher Steenrod operations vanish coherently.",
