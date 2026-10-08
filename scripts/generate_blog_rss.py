@@ -9,7 +9,7 @@ Workflow:
 
 import hashlib
 import json
-from datetime import datetime, timezone
+from datetime import datetime
 from xml.sax.saxutils import escape
 
 SITE_URL = "https://flynncoo.github.io"
@@ -37,8 +37,6 @@ for post in posts:
         f"    </item>"
     )
 
-build_date = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
-
 rss = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
@@ -46,7 +44,6 @@ rss = f"""<?xml version="1.0" encoding="UTF-8"?>
     <link>{SITE_URL}/blog/</link>
     <description>Blog posts by Oisín Flynn-Connolly on mathematics, theoretical computer science, and academic life.</description>
     <language>en</language>
-    <lastBuildDate>{build_date}</lastBuildDate>
     <atom:link href="{SITE_URL}/blog/feed.xml" rel="self" type="application/rss+xml" />
 {chr(10).join(rss_items)}
   </channel>
