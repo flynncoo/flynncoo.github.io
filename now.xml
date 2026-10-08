@@ -5,8 +5,32 @@
     <link>https://flynncoo.github.io/now.html</link>
     <description>Recent articles, talks, and events from Oisín Flynn-Connolly.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Mar 2026 05:36:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 18:43:50 +0000</lastBuildDate>
     <atom:link href="https://flynncoo.github.io/now.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Higher order Massey products for algebras over algebraic operads — accepted by Mathematische Zeitschrift</title>
+      <link>https://arxiv.org/abs/2304.13411</link>
+      <description>Accepted for publication in Mathematische Zeitschrift. Joint work with José M. Moreno-Fernández on higher-order Massey products for algebras over operads and their relation to the operadic Eilenberg–Moore spectral sequence.</description>
+      <category>article</category>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">8fee80f7593e</guid>
+    </item>
+    <item>
+      <title>Program committee — FICS 2027</title>
+      <link>https://fics2027.codeberg.page/</link>
+      <description>Serving on the program committee of the 14th International Workshop on Fixed Points in Computer Science, 25–26 January 2027 in Brighton, UK.</description>
+      <category>conference</category>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">f7c31a482d0e</guid>
+    </item>
+    <item>
+      <title>Reliable Software by Construction — Lorentz Center</title>
+      <link>https://www.lorentzcenter.nl/reliable-software-by-construction.html</link>
+      <description>Attending the Reliable Software by Construction workshop at the Lorentz Center in Leiden, 5–9 October 2026.</description>
+      <category>conference</category>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2e413c018146</guid>
+    </item>
     <item>
       <title>An obstruction theory for strictly commutative algebras in positive characteristic — published in AGT</title>
       <link>https://msp.org/agt/2026/26-2/p12.xhtml</link>
