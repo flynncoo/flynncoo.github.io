@@ -1,4 +1,5 @@
 -- Note from Oisín: This verification code was generated with Claude Code using the Opus 4.8 model.
+-- I checked it carefully, line by line, and vouch for its fidelity.
 -- Self-contained Macaulay2 verifier: commutative nonassoc Q-algebra with
 -- t_4 == 0 identically AND e_8(x,y) != 0  (8-Engel does NOT follow from t_4).
 -- Run:  M2 --script verify_e8.m2
