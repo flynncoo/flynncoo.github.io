@@ -46,8 +46,8 @@ Please cite the journal version where one exists and the preprint otherwise. Bib
 
 ### Published
 
-- Flynn-Connolly, O. An obstruction theory for strictly commutative algebras in positive characteristic. Algebraic & Geometric Topology 26 (2026), no. 2, 761--790. doi:10.2140/agt.2026.26.761 . https://msp.org/agt/2026/26-2/p12.xhtml . arXiv:2404.16681
 - Flynn-Connolly, O. Simplicial coendomorphism operads and coalgebras. Bulletin of the Australian Mathematical Society (2026), published online. doi:10.1017/S0004972726101294
+- Flynn-Connolly, O. An obstruction theory for strictly commutative algebras in positive characteristic. Algebraic & Geometric Topology 26 (2026), no. 2, 761--790. doi:10.2140/agt.2026.26.761 . https://msp.org/agt/2026/26-2/p12.xhtml . arXiv:2404.16681
 - Flynn-Connolly, O. Associative and commutative dg-algebras in positive characteristic. The Mathematical Intelligencer 48 (2026), no. 2, 132--137. doi:10.1007/s00283-025-10472-4 . (Also listed as "On associative and commutative differential graded algebras in positive characteristic".)
 - Flynn-Connolly, O. On the divisibility of sums of Fibonacci numbers. Integers: Electronic Journal of Combinatorial Number Theory 25 (2025), paper A87. https://math.colgate.edu/~integers/z87/z87.pdf . arXiv:2504.09938. Errata: https://math.colgate.edu/~integers/z87/z87.errata.pdf . Talk video: https://youtu.be/StiM2Y1zLsY
 - Dotsenko, V. and Flynn-Connolly, O. Three Schur functors related to pre-Lie algebras. Mathematical Proceedings of the Cambridge Philosophical Society 176 (2024), no. 2, 441--458. doi:10.1017/S0305004123000580 . arXiv:2001.00780
