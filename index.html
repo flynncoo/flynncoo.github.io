@@ -68,115 +68,16 @@
 		}
 		</script>
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-<style>
-  #research > .research-panel > .content {
-    width: 100%;
-  }
-  #research .research-panel .inner {
-    max-width: 68em;
-  }
-  .paper-group {
-    margin-top: 2.5em;
-  }
-  .paper-group > h3 {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    padding-bottom: 0.5em;
-  }
-  .paper-list,
-  .project-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  .paper-card {
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.16);
-    border-radius: 0.35em;
-    margin-bottom: 1em;
-    padding: 1.3em 1.5em;
-  }
-  .paper-card > :last-child,
-  .paper-card details > :last-child {
-    margin-bottom: 0;
-  }
-  .paper-card h3,
-  .paper-card h4 {
-    font-size: 1.05em;
-    line-height: 1.4;
-    margin: 0.35em 0;
-  }
-  .paper-topic {
-    color: rgba(255, 255, 255, 0.78);
-    display: inline-block;
-    font-size: 0.72em;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    margin-right: 0.65em;
-    text-transform: uppercase;
-  }
-  .paper-meta {
-    color: rgba(255, 255, 255, 0.72);
-    font-size: 0.9em;
-    margin: 0.15em 0;
-  }
-  .paper-status {
-    background: rgba(255, 255, 255, 0.13);
-    border-radius: 0.25em;
-    display: inline-block;
-    font-size: 0.72em;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    padding: 0.2em 0.55em;
-    text-transform: uppercase;
-  }
-  .paper-status.draft {
-    background: rgba(255, 204, 128, 0.2);
-    color: #ffe0a8;
-  }
-  .paper-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.3em 1em;
-    margin: 0.65em 0;
-  }
-  .paper-links a {
-    font-size: 0.9em;
-  }
-  .paper-card details {
-    border-top: 1px solid rgba(255, 255, 255, 0.16);
-    margin-top: 0.85em;
-    padding-top: 0.6em;
-  }
-  .paper-card summary {
-    cursor: pointer;
-    font-size: 0.9em;
-    font-weight: 600;
-  }
-  .paper-card summary:focus-visible {
-    outline: 2px solid white;
-    outline-offset: 0.2em;
-  }
-  .paper-card details p {
-    font-size: 0.9em;
-    line-height: 1.6;
-    margin-top: 0.9em;
-  }
-  @media screen and (max-width: 736px) {
-    .paper-card {
-      padding: 1em;
-    }
-  }
-</style>
+		<link rel="stylesheet" href="assets/css/academic.css" />
 </head>
-	<body class="is-preload">
+	<body>
 
 		<!-- Sidebar -->
 			<section id="sidebar">
 				<div class="inner">
-					<nav>
+					<nav aria-label="Main navigation">
 						<ul>
-							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#intro">Home</a></li>
 							<li><a href="#research">Research</a></li>
 							<li><a href="#talks">Talks and notes</a></li>
 							<li><a href="#teaching">Teaching</a></li>
@@ -191,34 +92,26 @@
 			<div id="wrapper">
 
 				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
+					<section id="intro" class="wrapper style1">
 						<div class="inner">
 							<h1>Oisín Flynn-Connolly</h1>
-							<p>I am a postdoc at Leiden University, working with <a href="https://liacs.leidenuniv.nl/~basoldh/">Henning Basold</a> in the <a href="https://stylo.liacs.nl/">StyLo team</a> since November 2024. From October 2021 - October 2024, I was a PhD student at Université Sorbonne Paris Nord supervised by Grégory Ginot. My research interests include:</p>
-								<ol>
-									<li><strong>Mathematics:</strong> Higher algebra and homotopy theory, very algebraic indeed: especially rational homotopy theory and algebraic operads. I am interested in effective techniques such as Massey products and also a bit interested in computer algebra. </li>
-								    <li><strong>Theoretical computer science:</strong> Category theory and its applications to probability, categorical logic, and coalgebra.</li>
-								</ol>
-<p>Research enquiries are welcome by email.</p>
+							<p>I am a postdoc at Leiden University, working with <a href="https://liacs.leidenuniv.nl/~basoldh/">Henning Basold</a> in the <a href="https://stylo.liacs.nl/">StyLo team</a>. My research is in homotopy theory, algebraic operads, and category theory, including applications to probability and coalgebras.</p>
+<p>I completed my PhD at Université Sorbonne Paris Nord in 2024, supervised by <a href="https://www.math.univ-paris13.fr/~ginot/">Grégory Ginot</a>.</p>
 
 <p><b>Contact:</b> Office BM2.16, <a href="https://maps.app.goo.gl/2hQ2gR9qrvbrmHyT7">Gorlaeus Building</a>. <a href="images/me.jpg">Photo</a>. Email: &#x6f;&#x69;&#x73;&#x69;&#x6e;&#x66;&#x6c;&#x79;&#x6e;&#x6e;&#x63;&#x6f;&#x6e;&#x6e;&#x6f;&#x6c;&#x6c;&#x79;&commat;&#x67;&#x6d;&#x61;&#x69;&#x6c;&period;&#x63;&#x6f;&#x6d;</p>
 
-<p>Keywords: Homotopy, Operads, Massey products, E-infinity algebras, Optimization, Categorical Probability</p>
 
-<ul class="actions">
-									</ul>
 
 						</div>
 					</section>
 
 				<!-- One -->
-<section id="research" class="wrapper style2 spotlights">
+<section id="research" class="wrapper style2">
   <section class="research-panel">
     <div class="content"><div class="inner">
       <h2>Research papers</h2>
       <ul class="paper-list">
   <li><article class="paper-card">
-    <span class="paper-topic">Homotopy theory</span>
     <span class="paper-status">Published</span>
     <h3>Higher order Massey products for algebras over algebraic operads</h3>
     <p class="paper-meta">Oisín Flynn-Connolly and José M. Moreno-Fernández</p>
@@ -228,7 +121,6 @@
     <details id="massey"><summary>Abstract</summary><p>We introduce higher-order Massey products for algebras over algebraic operads. This extends the work of Fernando Muro on secondary ones. We study their basic properties and behavior with respect to morphisms of algebras and operads and give some connections to formality. We prove that these higher-order operations represent the differentials in a naturally associated operadic Eilenberg–Moore spectral sequence. We also study the interplay between particular choices of higher-order Massey products and quasi-isomorphic P<sub>∞</sub>-structures on the homology of a P-algebra. We focus on Koszul operads over a characteristic zero field and explain how our results generalize to the non-Koszul case.</p></details>
   </article></li>
   <li><article class="paper-card">
-    <span class="paper-topic">Homotopy theory</span>
     <span class="paper-status">Published</span>
     <h3>Simplicial coendomorphism operads and coalgebras</h3>
     <p class="paper-meta">Oisín Flynn-Connolly</p>
@@ -238,7 +130,6 @@
     <details id="en"><summary>Abstract</summary><p>[This was my master thesis] In a recent work of Moreno-Fernandez, Wierstra and the present author, a coendomorphism operad in the category of pointed topological spaces endowed with the wedge sum was introduced. In this paper, we construct an analogue completely internal to the category of simplicial sets with the goal of defining simplicial coalgebras. As an application, we show that simplicial <var>n</var>-fold suspensions are coalgebras up to coherent homotopy over the Barratt–Eccles E<sub>n</sub>-operad provided they have finitely many nondegenerate simplices.</p></details>
   </article></li>
   <li><article class="paper-card">
-    <span class="paper-topic">Homotopy theory</span>
     <span class="paper-status">Published</span>
     <h3>An obstruction theory for strictly commutative algebras in positive characteristic</h3>
     <p class="paper-meta">Oisín Flynn-Connolly</p>
@@ -248,7 +139,6 @@
     <details id="art24"><summary>Abstract</summary><p>This is the first in a sequence of articles exploring the relationship between commutative algebras and E<sub>∞</sub>-algebras in characteristic <var>p</var> and mixed characteristic. In this article we lay the groundwork by defining a new class of cohomology operations over F<sub>p</sub> called cotriple products, generalising Massey products. We compute the secondary cohomology operations for a strictly commutative dg-algebra and the obstruction theories these induce, constructing several counterexamples to characteristic-0 behaviour, one of which answers a question of Campos, Petersen, Robert-Nicoud and Wierstra. We construct some families of higher cotriple products and comment on their behaviour. Finally, we distinguish a subclass of cotriple products that we call higher Steenrod operations and conclude with our main theorem, which says that E<sub>∞</sub>-algebras can be rectified if and only if the higher Steenrod operations vanish coherently.</p></details>
   </article></li>
   <li><article class="paper-card">
-    <span class="paper-topic">Expository</span>
     <span class="paper-status">Published</span>
     <h3>On associative and commutative differential graded algebras in positive characteristic</h3>
     <p class="paper-meta">Oisín Flynn-Connolly</p>
@@ -257,7 +147,6 @@
 
   </article></li>
   <li><article class="paper-card">
-    <span class="paper-topic">Number theory</span>
     <span class="paper-status">Published</span>
     <h3>On the divisibility of sums of Fibonacci numbers</h3>
     <p class="paper-meta">Oisín Flynn-Connolly</p>
@@ -267,7 +156,6 @@
     <details id="fibonacci"><summary>Abstract</summary><p>We show that for infinitely many odd integers <var>n</var>, the sum of the first <var>n</var> nonzero Fibonacci numbers is divisible by <var>n</var>. This resolves a conjecture of Fatehizadeh and Yaqubi.</p></details>
   </article></li>
   <li><article class="paper-card">
-    <span class="paper-topic">Algebra and categorical algebra</span>
     <span class="paper-status">Published</span>
     <h3>Three Schur functors related to pre-Lie algebras</h3>
     <p class="paper-meta">Vladimir Dotsenko and Oisín Flynn-Connolly</p>
@@ -277,7 +165,6 @@
     <details id="preLie"><summary>Abstract</summary><p>We give explicit combinatorial descriptions of three Schur functors arising in the theory of pre-Lie algebras. The first of them leads to a functorial description of the underlying vector space of the universal enveloping pre-Lie algebra of a given Lie algebra, strengthening the PBW theorem of Segal. The two other Schur functors provide functorial descriptions of the underlying vector spaces of the universal multiplicative enveloping algebra and of the module of Kähler differentials of a given pre-Lie algebra. An important consequence of such descriptions is an interpretation of the cohomology of a pre-Lie algebra with coefficients in a module as a derived functor for the category of modules over the universal multiplicative enveloping algebra.</p></details>
   </article></li>
   <li><article class="paper-card" id="dotsenko-conjecture">
-    <span class="paper-topic">Algebra and categorical algebra</span>
     <span class="paper-status">Preprint</span>
     <h3>On a conjecture of Dotsenko on weak nilpotence and the Engel identity</h3>
     <p class="paper-meta">Oisín Flynn-Connolly</p>
@@ -285,8 +172,7 @@
     <details><summary>Abstract</summary><p>By means of AI-assisted computer algebra, we give examples of commutative but nonassociative algebras satisfying the identity <var>t</var><sub>4</sub> = 0 such that neither the 7 nor 8-Engel identity holds. This resolves one conjecture of Dotsenko in the negative, and confirms a second. Conversely, we show that <var>t</var><sub>4</sub> = 0 implies the 9-Engel identity. Together these show that 9 is the least integer <var>m</var> for which <var>t</var><sub>4</sub> = 0 implies the <var>m</var>-Engel identity.</p></details>
   </article></li>
   <li><article class="paper-card">
-    <span class="paper-topic">Theoretical computer science</span>
-    <span class="paper-status">Submitted</span>
+    <span class="paper-status">Preprint</span>
     <h3>Final coalgebras over <var>R</var>-modules</h3>
     <p class="paper-meta">Oisín Flynn-Connolly, Henning Basold and Chase Ford</p>
     <p class="paper-meta">Preprint, 2026</p>
@@ -300,8 +186,7 @@
     These results show that homological algebra tools can play an important role in coalgebra.</p></details>
   </article></li>
   <li><article class="paper-card">
-    <span class="paper-topic">Algebra and categorical algebra</span>
-    <span class="paper-status">Submitted</span>
+    <span class="paper-status">Preprint</span>
     <h3>Enriched coalgebras are sometimes comonadic</h3>
     <p class="paper-meta">Oisín Flynn-Connolly</p>
     <p class="paper-meta">Preprint, 2026</p>
@@ -311,7 +196,6 @@
     <details id="ECASC"><summary>Abstract</summary><p>We introduce an enriched notion of a coalgebra over an operad P in a symmetric monoidal V-category C. When C is semicartesian and P is unital, we construct a V-endofunctor on C associated to P and give conditions under which it is a V-comonad with co-Eilenberg–Moore V-category isomorphic to the V-category of P-coalgebras in C. In many cases, this permits computation of V-categories of coalgebras. The key example is the category of pointed topological spaces with wedge product, enriched over topological spaces with Cartesian product, where this construction recovers the comonadic description of C<sub>n</sub>-coalgebras of Moreno-Fernández, Wierstra and the present author. We further recover one direction of Fox's theorem.</p></details>
   </article></li>
   <li><article class="paper-card">
-    <span class="paper-topic">Theoretical computer science</span>
     <span class="paper-status">Preprint</span>
     <h3>Central limits via dilated categories</h3>
     <p class="paper-meta">Henning Basold, Oisín Flynn-Connolly, Chase Ford and Hao Wang</p>
@@ -321,8 +205,7 @@
     <details id="clt"><summary>Summary</summary><p>Our main result is a categorical version of the central limit theorem. Additionally, we introduce a new category to act as a base of enrichment and prove a categorical version of the Banach fixed point theorem.</p></details>
   </article></li>
   <li><article class="paper-card">
-    <span class="paper-topic">Homotopy theory</span>
-    <span class="paper-status draft">Draft under revision</span>
+    <span class="paper-status">Preprint · under revision</span>
     <h3>A <em>p</em>-adic de Rham complex</h3>
     <p class="paper-meta">Oisín Flynn-Connolly</p>
     <p class="paper-meta">arXiv manuscript, 2025</p>
@@ -330,7 +213,6 @@
     <p class="paper-meta">The arXiv version has some problems; a revised version is in preparation.</p>
   </article></li>
   <li><article class="paper-card">
-    <span class="paper-topic">Homotopy theory</span>
     <span class="paper-status">Preprint</span>
     <h3>A recognition principle for iterated suspensions as coalgebras over the little cubes operad</h3>
     <p class="paper-meta">Oisín Flynn-Connolly, José M. Moreno-Fernández and Felix Wierstra</p>
@@ -362,7 +244,7 @@
 
 
 					</section>
-<section id="talks" class="wrapper style2 fade-up">
+<section id="talks" class="wrapper style2">
 						<div class="inner">
 <h2>Talks and notes</h2>
 
@@ -408,12 +290,12 @@
 							</ol>
 
 						A complete list of attended conferences and research visits is available on the <a href="activities.html">Activities page</a>.
-							</section>
+                        </div>
 					</section>
 
 				<!-- Three -->
 
-<section id="teaching" class="wrapper style3 fade-up">
+<section id="teaching" class="wrapper style3">
 						<div class="inner">
 
 <h2>Teaching</h2>
@@ -443,14 +325,14 @@
 								<li>Sam Testers (joint supervision with H. Basold and M. Otto), <em>From discrete-time Markov chains to coalgebras: A general theory of limit points</em> (Bachelor, 2026, <a href="https://theses.liacs.nl/pdf/2025-2026-TestersSSam.pdf">pdf</a>)</li>
 								<li>Jamie Wiskerke (joint supervision with H. Basold and R. Hazra), <em>Probability theory in the Category of Diffeological Spaces</em> (Bachelor, 2025, <a href="https://theses.liacs.nl/pdf/2024-2025-WiskerkeJJamie.pdf">pdf</a>)</li>
 							</ol>
-								</section>
+                        </div>
 					</section>
 
 				<!-- Service -->
-				<section id="service" class="wrapper style2 fade-up">
+				<section id="service" class="wrapper style2">
 					<div class="inner">
 						<h2>Service</h2>
-						<p>I organise the <a href="joint-seminar.html">Joint Seminar on Mathematical Structures in Computer Science</a>. I have refereed twice for <em>Archiv der Mathematik</em> and also for <em>Fibonacci Quarterly</em>, reviewed for zbMATH Open and MathSciNet, and will be on the program committee of FICS 2027. I also contribute sequences to the <a href="https://oeis.org/wiki/User:Ois%C3%ADn_Flynn-Connolly">OEIS</a>.</p>
+						<p>I organise the <a href="joint-seminar.html">Joint Seminar on Mathematical Structures in Computer Science</a>. I referee for mathematics journals, review for zbMATH Open and MathSciNet, and will serve on the program committee of FICS 2027. I also contribute sequences to the <a href="https://oeis.org/wiki/User:Ois%C3%ADn_Flynn-Connolly">OEIS</a>.</p>
 					</div>
 				</section>
 
@@ -465,13 +347,6 @@
 			</footer>
 			</div>
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 			<script>
 				document.getElementById('last-updated').textContent =
 					new Date(document.lastModified).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
