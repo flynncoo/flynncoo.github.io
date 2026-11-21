@@ -17,9 +17,9 @@
 		</script>
 		<title>Blog | Oisín Flynn-Connolly</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="../assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="../assets/css/academic.css" />
 
 		<link rel="alternate" type="application/rss+xml" title="Oisín Flynn-Connolly — Blog" href="https://flynncoo.github.io/blog/feed.xml" />
 		<meta property="og:title" content="Blog | Oisín Flynn-Connolly" />
@@ -42,35 +42,33 @@
 		<!-- marked.js for Markdown rendering -->
 		<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 	</head>
-	<body class="is-preload">
+	<body class="subpage">
 
 		<!-- Header -->
-			<header id="header">
-				<a href="../index.html" class="title">Oisín Flynn-Connolly</a>
-				<nav>
-					<ul>
-						<li><a href="../index.html">Home</a></li>
-						<li><a href="../about.html">About me</a></li>
-						<li><a href="../misc.html">Miscellaneous</a></li>
-						<li><a href="index.html">Blog</a></li>
-					</ul>
-				</nav>
-			</header>
+  <header id="header">
+    <div class="inner">
+      <a href="../index.html" class="title">Oisín Flynn-Connolly</a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../misc.html">Miscellaneous</a></li>
+          <li><a href="../blog/index.html" class="active">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Main -->
-					<section id="main" class="wrapper">
-						<div class="inner">
-							<div id="post-content">
+  <main id="main" class="wrapper">
+    <div class="inner">
+<div id="post-content">
 								<p>Loading...</p>
 							</div>
 							<hr />
-							<p><a href="index.html">← Back to blog</a></p>
+							<p><a href="index.html">Back to blog</a></p>
 
 							<!-- Comments (Giscus) -->
-							<div id="comments" style="margin-top: 3em;">
+							<div id="comments">
 								<script src="https://giscus.app/client.js"
 									data-repo="flynncoo/flynncoo.github.io"
 									data-repo-id="R_kgDOMH48vg"
@@ -81,16 +79,14 @@
 									data-reactions-enabled="1"
 									data-emit-metadata="0"
 									data-input-position="bottom"
-									data-theme="preferred_color_scheme"
+									data-theme="light"
 									data-lang="en"
 									crossorigin="anonymous"
 									async>
 								</script>
-							</div>
-						</div>
-					</section>
-
-			</div>
+      </div>
+    </div>
+  </main>
 
 		<!-- Footer -->
 			<footer id="footer" class="wrapper alt">
@@ -102,13 +98,6 @@
 			</footer>
 
 		<!-- Scripts -->
-			<script src="../assets/js/jquery.min.js"></script>
-			<script src="../assets/js/jquery.scrollex.min.js"></script>
-			<script src="../assets/js/jquery.scrolly.min.js"></script>
-			<script src="../assets/js/browser.min.js"></script>
-			<script src="../assets/js/breakpoints.min.js"></script>
-			<script src="../assets/js/util.js"></script>
-			<script src="../assets/js/main.js"></script>
 			<script>
 				(function() {
 					var params = new URLSearchParams(window.location.search);
@@ -161,7 +150,6 @@
 							var h1 = contentEl.querySelector('h1');
 							if (h1) {
 								document.title = h1.textContent + ' | Oisín Flynn-Connolly';
-								h1.className = 'major';
 							}
 
 							// Typeset math with MathJax

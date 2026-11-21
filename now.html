@@ -19,7 +19,7 @@
 		<meta charset="utf-8" />
 		<meta name="description" content="Recent articles, talks, conferences, and events from Oisín Flynn-Connolly." />
 		<meta name="robots" content="noindex, nofollow" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="canonical" href="https://flynncoo.github.io/now.html" />
 		<link rel="alternate" type="application/rss+xml" title="Oisín Flynn-Connolly — News Feed" href="https://flynncoo.github.io/now.xml" />
 		<meta property="og:title" content="News | Oisín Flynn-Connolly" />
@@ -27,186 +27,44 @@
 		<meta property="og:url" content="https://flynncoo.github.io/now.html" />
 		<meta property="og:type" content="website" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-			/* Timeline feed */
-			.timeline {
-				position: relative;
-				padding-left: 2em;
-				margin-top: 1.5em;
-			}
-			.timeline::before {
-				content: '';
-				position: absolute;
-				left: 0.45em;
-				top: 0.4em;
-				bottom: 0;
-				width: 2px;
-				background: rgba(255, 255, 255, 0.15);
-			}
-			.timeline-item {
-				position: relative;
-				padding-bottom: 2em;
-			}
-			.timeline-item:last-child {
-				padding-bottom: 0;
-			}
-			.timeline-dot {
-				position: absolute;
-				left: -1.75em;
-				top: 0.35em;
-				width: 12px;
-				height: 12px;
-				border-radius: 50%;
-				border: 2px solid;
-			}
-			.timeline-dot.dot-article {
-				border-color: #6ab4ff;
-				background: rgba(100, 180, 255, 0.3);
-			}
-			.timeline-dot.dot-conference {
-				border-color: #ffb464;
-				background: rgba(255, 180, 100, 0.3);
-			}
-			.timeline-dot.dot-attendance {
-				border-color: #83d3c7;
-				background: rgba(131, 211, 199, 0.3);
-			}
-			.timeline-dot.dot-event {
-				border-color: #b48eff;
-				background: rgba(180, 142, 255, 0.3);
-			}
-			.timeline-date {
-				font-size: 0.8em;
-				text-transform: uppercase;
-				letter-spacing: 0.1em;
-				color: rgba(255, 255, 255, 0.4);
-				margin-bottom: 0.3em;
-			}
-			.timeline-title {
-				font-size: 1.05em;
-				font-weight: 600;
-				margin-bottom: 0.3em;
-				line-height: 1.4;
-			}
-			.timeline-title a {
-				border-bottom: 1px dotted rgba(255, 255, 255, 0.35);
-			}
-			.timeline-title a:hover {
-				border-bottom-style: solid;
-			}
-			.timeline-desc {
-				font-size: 0.9em;
-				color: rgba(255, 255, 255, 0.6);
-				line-height: 1.5;
-			}
-			.timeline-badge {
-				display: inline-block;
-				font-size: 0.65em;
-				font-weight: 700;
-				padding: 0.2em 0.6em;
-				border-radius: 3px;
-				text-transform: uppercase;
-				letter-spacing: 0.08em;
-				vertical-align: middle;
-				margin-left: 0.6em;
-				position: relative;
-				top: -0.1em;
-			}
-			.badge-article    { background: rgba(100, 180, 255, 0.15); color: #6ab4ff; }
-			.badge-conference { background: rgba(255, 180, 100, 0.15); color: #ffb464; }
-			.badge-attendance { background: rgba(131, 211, 199, 0.15); color: #83d3c7; }
-			.badge-event      { background: rgba(180, 142, 255, 0.15); color: #b48eff; }
-
-			/* Filter buttons */
-			.feed-filters {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 0.5em;
-				margin-bottom: 1.5em;
-				align-items: center;
-			}
-			.feed-filters span {
-				font-size: 0.85em;
-				color: rgba(255, 255, 255, 0.5);
-				margin-right: 0.3em;
-			}
-			.filter-btn {
-				font-size: 0.8em;
-				padding: 0.35em 0.9em;
-				border-radius: 2em;
-				border: 1px solid rgba(255, 255, 255, 0.2);
-				background: transparent;
-				color: rgba(255, 255, 255, 0.6);
-				cursor: pointer;
-				transition: all 0.2s ease;
-				font-family: inherit;
-			}
-			.filter-btn:hover {
-				border-color: rgba(255, 255, 255, 0.4);
-				color: rgba(255, 255, 255, 0.9);
-			}
-			.filter-btn.active {
-				background: rgba(255, 255, 255, 0.1);
-				border-color: rgba(255, 255, 255, 0.4);
-				color: #fff;
-			}
-
-			/* RSS link */
-			.rss-link {
-				font-size: 0.85em;
-				margin-left: auto;
-			}
-			.rss-link a {
-				color: rgba(255, 255, 255, 0.5);
-				border-bottom: none !important;
-			}
-			.rss-link a:hover {
-				color: #ffb464;
-			}
-			.rss-link .fa-rss {
-				margin-right: 0.3em;
-			}
-		</style>
+		<link rel="stylesheet" href="assets/css/academic.css" />
 	</head>
-	<body class="is-preload">
+	<body class="subpage">
 
 		<!-- Header -->
-			<header id="header">
-				<a href="index.html" class="title">Oisín Flynn-Connolly</a>
-				<nav>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="now.html" class="active">News</a></li>
-						<li><a href="about.html">About me</a></li>
-						<li><a href="misc.html">Miscellaneous</a></li>
-					</ul>
-				</nav>
-			</header>
+  <header id="header">
+    <div class="inner">
+      <a href="index.html" class="title">Oisín Flynn-Connolly</a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="misc.html">Miscellaneous</a></li>
+          <li><a href="blog/index.html">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Big Picture -->
-					<section id="main" class="wrapper">
-						<div class="inner">
-							<h1 class="major">News</h1>
-							<p>Recent articles, talks, conferences, and events.</p>
+  <main id="main" class="wrapper">
+    <div class="inner">
+<h1>News</h1>
+							<p>Recent articles, talks, conferences, and events. <a href="now.xml">RSS feed</a></p>
 
 							<div class="feed-filters">
 								<span>Show:</span>
-								<button class="filter-btn active" data-filter="all">All</button>
-								<button class="filter-btn" data-filter="article">Articles</button>
-								<button class="filter-btn" data-filter="conference">Talks</button>
-								<button class="filter-btn" data-filter="attendance">Conferences attended</button>
-								<button class="filter-btn" data-filter="event">Events</button>
-								<span class="rss-link"><a href="now.xml"><i class="fas fa-rss"></i>RSS</a></span>
+								<button class="filter-btn active" aria-pressed="true" data-filter="all">All</button>
+								<button class="filter-btn" aria-pressed="false" data-filter="article">Articles</button>
+								<button class="filter-btn" aria-pressed="false" data-filter="conference">Talks</button>
+								<button class="filter-btn" aria-pressed="false" data-filter="attendance">Conferences attended</button>
+								<button class="filter-btn" aria-pressed="false" data-filter="event">Events</button>
+
 							</div>
 
-							<div id="feed-timeline" class="timeline"></div>
-						</div>
-					</section>
-			</div>
+      <div id="feed-timeline" aria-live="polite"><p>Loading news…</p></div>
+      <noscript><p>Read the <a href="now.xml">RSS feed</a> for news.</p></noscript>
+    </div>
+  </main>
 
 		<!-- Footer -->
 			<footer id="footer" class="wrapper alt">
@@ -218,13 +76,6 @@
 			</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 			<script>
 				(function() {
 					var allItems = [];
@@ -243,7 +94,7 @@
 							: allItems.filter(function(item) { return item.type === filter; });
 
 						if (items.length === 0) {
-							container.innerHTML = '<p style="color: rgba(255,255,255,0.4); font-style: italic;">No items to show.</p>';
+							container.innerHTML = '<p>No items to show.</p>';
 							return;
 						}
 
@@ -255,15 +106,11 @@
 								? '<a href="' + item.url + '">' + item.title + '</a>'
 								: item.title;
 
-							html += '<div class="timeline-item" data-type="' + item.type + '">'
-								+ '<div class="timeline-dot dot-' + item.type + '"></div>'
-								+ '<div class="timeline-date">' + dateStr + '</div>'
-								+ '<div class="timeline-title">'
-								+   title
-								+   '<span class="timeline-badge badge-' + item.type + '">' + typeLabels[item.type] + '</span>'
-								+ '</div>'
-								+ '<div class="timeline-desc">' + item.description + '</div>'
-								+ '</div>';
+                            html += '<article class="news-item" data-type="' + item.type + '">'
+                                + '<p class="page-meta"><time datetime="' + item.date + '">' + dateStr + '</time> · ' + typeLabels[item.type] + '</p>'
+                                + '<h2>' + title + '</h2>'
+                                + '<p>' + item.description + '</p>'
+                                + '</article>';
 						});
 						container.innerHTML = html;
 					}
@@ -273,8 +120,10 @@
 						btn.addEventListener('click', function() {
 							document.querySelectorAll('.filter-btn').forEach(function(b) {
 								b.classList.remove('active');
+                                b.setAttribute('aria-pressed', 'false');
 							});
 							btn.classList.add('active');
+                            btn.setAttribute('aria-pressed', 'true');
 							renderTimeline(btn.getAttribute('data-filter'));
 						});
 					});
@@ -286,7 +135,10 @@
 							items.sort(function(a, b) { return b.date.localeCompare(a.date); });
 							allItems = items;
 							renderTimeline('all');
-						});
+						})
+                        .catch(function() {
+                            document.getElementById('feed-timeline').innerHTML = '<p>Could not load news. <a href="now.xml">Read the RSS feed.</a></p>';
+                        });
 				})();
 			</script>
 

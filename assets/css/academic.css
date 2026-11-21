@@ -1,4 +1,4 @@
-/* A quiet, text-first layout for the academic homepage. */
+/* A quiet, text-first layout for the academic website. */
 body {
   background: #fff;
   color: #30363c;
@@ -106,9 +106,115 @@ a:focus-visible, summary:focus-visible {
 #footer > .inner .menu { color: #59636c; font-size: 0.875rem; }
 #footer > .inner a { color: #59636c; border-bottom-color: #bdccd6; }
 
+/* Secondary pages share the homepage's typography and reading width. */
+.subpage #header {
+  display: block;
+  background: #fff;
+  padding: 0;
+  border-bottom: 1px solid #e2e6e9;
+}
+.subpage #header > .inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.75rem 2rem;
+  max-width: 54rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+.subpage #header .title {
+  color: #22282e;
+  font-size: 1rem;
+  font-weight: 400;
+  border: 0;
+}
+.subpage #header nav { margin-left: auto; }
+.subpage #header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.subpage #header nav ul li { margin: 0; padding: 0; }
+.subpage #header nav ul li a {
+  color: #4a555f;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.subpage #header nav ul li a:hover,
+.subpage #header nav ul li a.active { color: #163b55; }
+.subpage #header nav ul li a.active { border-bottom: 1px solid currentColor; }
+.subpage #main > .inner { padding-top: 3rem; }
+.subpage h1.major { margin-bottom: 1.5rem; padding-bottom: 0; }
+.subpage h1.major::after { display: none; }
+.subpage #main h2 { margin-top: 2rem; margin-bottom: 0.75rem; }
+.subpage #main li { margin-bottom: 0.65rem; }
+.subpage hr, .subpage ul.alt > li { border-color: #e2e6e9; }
+.subpage #footer > .inner { border-top: 1px solid #e2e6e9; }
+.subpage .page-meta { color: #59636c; font-size: 0.9rem; }
+.subpage code, .subpage pre {
+  background: #f5f7f8;
+  border-color: #e2e6e9;
+}
+.subpage pre { overflow-x: auto; }
+.subpage pre code { background: none; }
+.subpage blockquote { border-left-color: #bdccd6; }
+.subpage #post-content { overflow-wrap: anywhere; }
+.subpage #comments { margin-top: 2rem; }
+
+.seminar-schedule { list-style: none; margin: 0; padding: 0; }
+.subpage .seminar-schedule > li {
+  border-bottom: 1px solid #e2e6e9;
+  margin: 0;
+  padding: 1rem 0;
+}
+.seminar-schedule summary { cursor: pointer; font-weight: 400; }
+.seminar-schedule details p { margin: 1rem 0 0; }
+.abstract-link { color: #59636c; font-size: 0.9rem; }
+
+.feed-filters { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; margin-bottom: 1.5rem; }
+.feed-filters > span { color: #59636c; font-size: 0.9rem; }
+.feed-filters .filter-btn {
+  background: none;
+  /* Override the original theme's important button border and text color. */
+  border: 0 !important;
+  border-radius: 0;
+  box-shadow: none;
+  color: #285879 !important;
+  font: inherit;
+  font-size: 0.9rem;
+  height: auto;
+  letter-spacing: 0;
+  line-height: 1.7;
+  padding: 0;
+  text-transform: none;
+}
+.feed-filters .filter-btn::after { display: none; }
+.feed-filters .filter-btn:hover { color: #163b55 !important; background: none; }
+.feed-filters .filter-btn.active { color: #22282e !important; text-decoration: underline; text-underline-offset: 0.25rem; }
+.filter-btn:focus-visible { outline: 2px solid #285879; outline-offset: 4px; }
+.news-item { border-bottom: 1px solid #e2e6e9; padding: 1.25rem 0; }
+.news-item:first-child { padding-top: 0; }
+.news-item h2 { font-size: 1.05rem; }
+.subpage #main .news-item h2 { margin: 0.25rem 0 0.5rem; }
+.news-item p { margin: 0; }
+.subpage #post-list ul { list-style: none; margin: 0; padding: 0; }
+.subpage #post-list li { border-bottom: 1px solid #e2e6e9; margin: 0; padding: 1.25rem 0; }
+.subpage #post-list li:first-child { padding-top: 0; }
+.subpage #post-list h2 { font-size: 1.05rem; margin: 0.25rem 0 0.5rem; }
+.subpage #post-list p { margin: 0; }
+
 @media screen and (max-width: 736px) {
   #sidebar > .inner, .wrapper > .inner,
   #research .research-panel .inner { padding-left: 1.25rem; padding-right: 1.25rem; }
   h1 { font-size: 1.75rem; }
   #intro > .inner { padding-top: 2rem; }
+  .subpage #header > .inner { padding-left: 1.25rem; padding-right: 1.25rem; }
+  .subpage #header .title { padding: 0; }
+  .subpage #header nav { margin-left: 0; }
+  .subpage #main > .inner { padding-top: 2rem; }
 }
