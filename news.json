@@ -152,14 +152,6 @@
     "guid": "a5d647b58b87"
   },
   {
-    "type": "article",
-    "date": "2025-01-17",
-    "title": "A preprint on a p-adic de Rham complex",
-    "description": "I posted “A p-adic de Rham complex” to arXiv. Inspired by Sullivan’s A_PL functor, it builds a strictly commutative algebra over the p-adic numbers that computes singular cohomology. I am preparing a new version.",
-    "url": "https://arxiv.org/abs/2501.10164",
-    "guid": "6196a9efaaed"
-  },
-  {
     "type": "conference",
     "date": "2024-10-21",
     "title": "Iterated suspensions in Toulouse",
